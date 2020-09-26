@@ -1,0 +1,950 @@
+﻿.ms-Callout-inner{
+    padding:0px !important;
+}
+.ms-Callout-header{
+    padding:5px !important;
+
+}
+.ms-Callout-title{
+    font-size:20px !important;
+}
+.blur3px {
+    filter: blur(3px);
+}
+.ms-CalloutExample {
+    height: 20px;
+}
+.ms-Button--commandBar{
+    min-width:50px !important;
+}
+.OurArt {
+    background: #ffffff;
+    padding: 2px;
+    color: #0078d4;
+    border: 1px solid #0078d4;
+}
+.ActiveArticelRow {
+    background: #0078d4;
+    color:#fff;
+}
+.ActiveOrder::before{
+    color:#fff !important;
+}
+.File {
+    background: #fff
+}
+.OrderDetailDiv {
+    background: #fff;
+}
+button.ms-Button.info {
+    border: 0px !important;
+    background: transparent;
+}
+.w100{
+    width:100% !important;
+}
+.iconnewWindow {
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    font-family: controlIcons;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-right: 4px;
+    margin-bottom: 0px;
+    margin-left: 4px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    flex-shrink: 0;
+    color: #0078d4;
+}
+
+
+
+.Settings{
+    width:0px;
+    height:0px;
+}
+.SettingsActive {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+.MotionHead{
+    font-weight:600;
+}
+.btnwarning {
+    color: #212529 !important;
+    background-color: #ffc107 !important;
+    border-color: #ffc107 !important;
+}
+
+.Transfer > i.ButtonIcon {
+    color: #fff !important;
+}
+
+._3S2EUMLYRrJgMrT5t_51Fm ._2u02PxPkjCZlgtNzKwvhpI {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    height: 63px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: calc(100% - 32px);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.notoverflow {
+    overflow: hidden !important;
+}
+
+.btnoutlineprimary {
+    color: #007bff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #007bff;
+}
+
+html {
+    border-radius: 9px;
+    border: solid 6px transparent;
+    border-top-color: transparent;
+    border-top-style: solid;
+    border-top-width: 6px;
+    border-right-color: transparent;
+    border-right-style: solid;
+    border-right-width: 6px;
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 6px;
+    border-left-color: transparent;
+    border-left-style: solid;
+    border-left-width: 6px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    background-clip: content-box;
+}
+
+#KalemlerListe {
+    width: 100%;
+}
+
+.ms-Dialog-main {
+    max-width: 100% !important;
+}
+
+.layer-351 {
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-weight: 400;
+    position: fixed;
+    z-index: 1000000;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.content-120 {
+    font-family: "Segoe UI","Segoe UI Web (West European)","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--neutralPrimary);
+    visibility: visible;
+}
+
+.root-345 {
+    font-family: "Segoe UI","Segoe UI Web (West European)","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: transparent;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 267ms ease 0s;
+}
+
+.root-414 {
+    font-family: "Segoe UI","Segoe UI Web (West European)","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-weight: 400;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+#ProductModal {
+    background-color: rgba(0,0,0,0.4);
+}
+
+.main-412 {
+    box-shadow: rgba(0,0,0,.22) 0 25.6px 57.6px 0, rgba(0,0,0,.18) 0 4.8px 14.4px 0;
+    background-color: #fff;
+    box-sizing: border-box;
+    position: relative;
+    text-align: left;
+    max-height: 100%;
+    overflow-y: auto;
+    animation-name: css-0,css-11;
+    animation-duration: 367ms;
+    animation-timing-function: cubic-bezier(.1,.9,.2,1);
+    animation-fill-mode: both;
+    border-radius: 2px;
+    outline: transparent solid 3px;
+    padding: 20px;
+}
+
+.scrollableContent-413 {
+    overflow-y: auto;
+    flex-grow: 1;
+    max-height: 100vh;
+}
+
+.bfmOrcHQ8InJjhHaidhb- {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    /* display: flex; */
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    height: 90vh;
+    width: 90vw;
+    max-width: 1280px;
+    min-width: 980px;
+    overflow-x: hidden;
+}
+
+i.ButtonIcon {
+    font-family: FabricMDL2Icons !important;
+    font-size: 16px;
+    color: #106ebe;
+}
+
+.ms-Button.ms-Button--primary {
+    background-color: rgb(0, 120, 215);
+    border-color: rgb(0, 120, 215);
+}
+
+.ms-Button {
+    box-sizing: border-box;
+    box-shadow: none;
+    -webkit-font-smoothing: antialiased;
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+    font-weight: 400;
+    background-color: rgb(244, 244, 244);
+    cursor: pointer;
+    display: inline-block;
+     margin: 0px;
+    padding: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(244, 244, 244);
+    border-image: initial;
+    padding: 10px !important;
+}
+.TransferBTN{
+    color:#fff !important;
+    line-height:10px !important;
+}
+i.Transfer.ButtonIcon.icon-93 {
+    color: #fff !important;
+    line-height: 10px !important;
+}
+a:focus, a:hover {
+    text-decoration: none !important;
+}
+
+.ms-ContextualMenu-link:focus {
+    border: 0px !important;
+}
+
+.ms-ContextualMenu.ms-ContextualMenu--multiselect .ms-ContextualMenu-link.is-selected:focus, .ms-ContextualMenu.ms-ContextualMenu--multiselect .ms-ContextualMenu-link.is-selected:hover {
+    font-weight: 400 !important;
+}
+
+.ms-ContextualMenu.ms-ContextualMenu--multiselect .ms-ContextualMenu-link.is-selected:after {
+    display: none !important;
+}
+
+.w300px {
+    width: 300px !important;
+}
+
+.ms-Button-description, .ms-Button-icon {
+    display: flex;
+}
+
+.ms-Button-label {
+    font-weight: 400 !important;
+}
+
+.ms-Icon--Picture, .ms-Icon--Document, .ms-Icon--Money {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #0094ff;
+    margin-left: 5px;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: FabricMDL2Icons-1;
+    font-style: normal;
+    font-weight: 400;
+}
+
+    .ms-Icon--Document:before {
+        content: '\E8A5';
+    }
+
+    .ms-Icon--Money:before {
+        content: '\EAFD';
+    }
+
+.ms-ContextualHost.is-positioned {
+    z-index: 9999;
+} 
+.FileIco {
+   background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    background-position:center;
+   
+}
+
+.od-SearchBox-iconSearchWrapper {
+    line-height: 40px !important;
+}
+.Picture {
+    width: 100%;
+}
+@media screen and (max-width: 600px) {
+    .PicDiv {
+      height:150px !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .TopBarObject {
+       padding:1px !important;
+       width:40px !important;
+    }
+}
+
+.lh50 {
+    line-height: 50px;
+}
+.TopBarObject:last-child {
+    display: none;
+}
+.ms-Button {
+    animation-name: ms-fadeIn,ms-slideDownIn20;
+    animation-duration: 367ms;
+    animation-timing-function: cubic-bezier(.1,.9,.2,1);
+    animation-fill-mode: both;
+    animation-delay: .5s
+}
+#OtherMenu {
+    z-index: -999;
+    position: fixed;
+}
+.ThemeBase .AEPGHdAvYHd9zEd_3gO6s {
+    float: left;
+    width: 146px
+}
+.ThemeBase ._3vMrdRZR8bo5hSiJS8JJ8C {
+    font: 600 22px SegoeUI-SemiBold-final,Segoe UI Semibold,SegoeUI-Regular-final,Segoe UI,"Segoe UI Web (West European)",Segoe,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Tahoma,Helvetica,Arial,sans-serif;
+    display: inline-block;
+    margin: 30px 0 20px 18px
+}
+.ThemeBase ._2d3HJn7fCnXe5MwUmFMiia {
+    color: #484644
+}
+.ThemeBase ._1bnSKQ8Oe4rtDYAQohwZvC {
+    margin-left: 8px
+}
+.ThemeBase .awvAOzajq0NLxzAxgup3p {
+    clear: both
+}
+.ThemeBase .qXtKVA0JDCaTuFL6XJNLA {
+    display: flex;
+     font-weight: 600;
+    background: transparent !important;
+    border: 0;
+    padding: 0;
+    min-width: 0;
+    height: auto;
+    text-decoration: none !important;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 12px 0 35px 20px
+}
+    .ThemeBase .qXtKVA0JDCaTuFL6XJNLA > span {
+        padding-bottom: 2px;
+        transition: border-bottom-color 83ms linear
+    }
+    .ThemeBase .qXtKVA0JDCaTuFL6XJNLA:hover > span {
+        border-bottom: 1px solid;
+        padding-bottom: 1px
+    }
+    .ThemeBase .qXtKVA0JDCaTuFL6XJNLA > div {
+        font-size: 12px;
+        margin-top: 4px;
+        margin-left: 12px
+    } 
+.BasePage-leftNav-Container {
+    display: none;
+}
+.none {
+    display: none !important;
+}
+
+.SubTools {
+    display: none;
+}
+
+.backleft {
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    font-family: FabricMDL2Icons;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-right: 4px;
+    margin-bottom: 0px;
+    margin-left: 4px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    flex-shrink: 0;
+    color: rgb(16, 110, 190);
+}
+
+.icon-144s {
+    float: left;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    font-family: FabricMDL2Icons-0;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-right: 4px;
+    margin-bottom: 0px;
+    margin-left: 4px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    flex-shrink: 0;
+    color: rgb(16, 110, 190);
+}
+
+.icon-73 {
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    font-family: FabricMDL2Icons;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-right: 4px;
+    margin-bottom: 0px;
+    margin-left: 4px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    flex-shrink: 0;
+    color: rgb(16, 110, 190);
+    float:left;
+}
+
+.nott {
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    font-family: FabricMDL2Icons-1;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-right: 4px;
+    margin-bottom: 0px;
+    margin-left: 4px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    flex-shrink: 0;
+    color: rgb(16, 110, 190);
+}
+@font-face {
+    font-family: FabricMDL2Icons;
+    src: url(fonts/odsp-next-icons-6d13ee67.woff) format("woff")
+}
+.flexContainer-86 >i{
+    display:inline-block !important;
+}
+
+.Paylas {
+    float: left;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    font-family: FabricMDL2Icons;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-right: 4px;
+    margin-bottom: 0px;
+    margin-left: 4px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: middle;
+    flex-shrink: 0;
+    color: rgb(16, 110, 190);
+}
+
+.pad0 {
+    padding: 0px !important;
+}
+
+.effect  .modal,.SubTools {
+    animation-name: ms-fadeIn,ms-slideRightIn40;
+    animation-duration: 367ms;
+    animation-timing-function: cubic-bezier(.1,.9,.2,1);
+    animation-fill-mode: both
+}
+
+
+.SlideClose {
+    animation-name: ms-fadeOut,ms-slideRightOut40;
+    animation-duration: 367ms;
+    animation-timing-function: cubic-bezier(.1,.9,.2,1);
+    animation-fill-mode: both
+}
+
+@keyframes ms-fadeIn {
+    from {
+        opacity: 0;
+        animation-timing-function: cubic-bezier(.1,.25,.75,.9)
+    }
+
+    to {
+        opacity: 1
+    }
+}
+@keyframes ms-fadeOut {
+    from {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(.1,.25,.75,.9)
+    }
+
+    to {
+        opacity: 0
+    }
+}
+
+@keyframes ms-slideRightIn40 {
+    from {
+        transform: translate3d(0px,0,0)
+    }
+
+    to {
+        transform: translate3d(-40px,0,0)
+    }
+}
+@keyframes ms-slideRightOut40 {
+    from {
+        transform: translate3d(0,0,0)
+    }
+
+    to {
+        transform: translate3d(0,0,-40px)
+    }
+}
+
+@-webkit-keyframes flexPaneItem-slideContentIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate(80px);
+        -ms-transform: translate(80px);
+        transform: translate(80px)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate(0);
+        -ms-transform: translate(0);
+        transform: translate(0)
+    }
+}
+
+@keyframes flexPaneItem-slideContentIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate(80px);
+        -ms-transform: translate(80px);
+        transform: translate(80px)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate(0);
+        -ms-transform: translate(0);
+        transform: translate(0)
+    }
+}
+
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.ActiveItem {
+    padding: 10px;
+ 
+}
+.OrderTools{
+    padding-top:20px;
+    display:inline-block;
+}
+.ItemOrder {
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.fontsize14px {
+    font-size: 14px !important
+}
+
+
+.OrderTotalCount {
+    background: #0078d4;
+    padding: 10px;
+    color: #fff;
+    border-radius: 4px;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.OrderDetailDiv {
+    
+        background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: bottom;
+}
+ 
+ 
+.OrderDetailsComment{
+    font-size:16px;
+    min-height:100px;
+}
+.pad10{
+    padding-left:10px;
+}
+
+#KalemlerListe {
+    margin-top: 20px;
+}
+.OrderRow{
+    margin-bottom:10px;
+}
+.fleft {
+    float: left !important;
+}
+a.nav-link:hover {
+    background: #1a86d8;
+    color: #fff;
+}
+#LayoutRight {
+    outline: -webkit-focus-ring-color auto 1px;
+}
+
+.padd0, .marg0 {
+    padding: 0px !important;
+    margin: 0px;
+}
+.File{
+    line-height:50px;
+    cursor:pointer;
+}
+    .File:hover {
+       
+        border-radius: 4px;
+        padding: 0px !important;
+        box-shadow: 0px 5px 6px 1px rgba(0,123,255,.5)
+    }
+
+
+.docx:hover, .doc:hover {
+    box-shadow: 0px 5px 6px 1px rgb(26, 134, 216);
+    outline: 1px solid rgb(26, 134, 216);
+}
+
+.xlsx:hover, .xls:hover {
+    box-shadow: 0px 5px 6px 1px rgb(16, 124, 65);
+    outline: 1px solid rgb(16, 124, 65);
+}
+.pdf:hover {
+    box-shadow: 0px 5px 6px 1px rgba(236, 12, 12, 0.33);
+    outline: 0px 5px 6px 1px rgba(236, 12, 12, 0.33);
+}
+
+ 
+  
+ 
+ 
+.MainLink{
+    color:#0078d4;
+    font-size:18px;
+    padding:10px;
+    cursor:pointer;
+    border:1px solid #c8c8c8;
+    display:inline-block;
+        border-radius:4px;
+
+}
+    .MainLink:hover {
+        color: #ffffff;
+        background: #0078d4;
+    }
+ 
+.BlueHead {
+    padding-right: 10px;
+    font-weight:400 !important;
+ 
+    font-weight: 600;
+    color: #0078d4;
+    display: inline-block;
+}
+.PartHead {
+    padding: 10px;
+    font-weight: 400 !important;
+    color: #fff;
+    font-weight: 600;
+    background: #0078d4;
+    display: inline-block;
+    width: 100%;
+}
+
+input.form-control.OneDriveInput, select.form-control.OneDriveInput {
+    box-sizing: border-box;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #c8c8c8 !important;
+    border-radius: 0 !important;
+    font-weight: 300;
+    font-size: 14px;
+    color: #333333;
+    height: 32px;
+    padding: 6px 12px 7px;
+    width: 100%;
+    min-width: 180px;
+    outline: 0;
+}
+
+    input.form-control.OneDriveInput:focus, select.form-control.OneDriveInput:focus {
+        border-color: #0078d4 !important;
+    }
+
+#ThereThScreen {
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important;
+    height: 600px;
+}
+
+.Pictures {
+    min-height: 400px;
+    background-position: center;
+}
+
+.ActiveOrder {
+    border-bottom: 2px solid #0078d4;
+    color: #0078d4;
+}
+
+.WaitDiv {
+    background: url(img/bekle.gif) no-repeat;
+    background-position: center;
+}
+
+body {
+    display: block !important;
+}
+
+.content {
+    max-width: 100% !important;
+}
+
+#loading {
+    display: none;
+}
+
+#PictureCanvas, .VideoCanvas {
+    display: none;
+    z-index: 10000000 !important;
+}
+
+#NewSell > label {
+    padding-top: 20px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.ArticelCreate {
+    border-color: #17a08c !important;
+}
+
+    .ArticelCreate:hover {
+        background: #5CB85C !important;
+        color: #fff !important
+    }
+
+.OrderItem {
+    display: none;
+    border: 1px solid rgb(77, 171, 199);
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.ItemOrder {
+    cursor: pointer;
+}
+
+
+
+.WizardArea {
+    border-right: 1px solid rgba(0,123,255,.5);
+    border-radius: 4px;
+    
+}
+
+.BackSecond {
+    float: right;
+    float: right;
+    border: 1px solid #0078d4;
+    border-radius: 360px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    background: #0078d4;
+}
+
+
+
+
+.Picture {
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none !important;
+    float: left;
+
+ 
+}
+
+#BaseClass {
+    width: 100%;
+    position: fixed;
+    z-index: 999999999;
+    width: 0px;
+    overflow: hidden;
+    height: 100vh !important;
+    background: #fff;
+    top: 0;
+    right: 0;
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 25.6px 57.6px 0px, rgba(0, 0, 0, 0.18) 0px 4.8px 14.4px 0px;
+    transition: 0.4s;
+}
+
+.presentation {
+    display: inline-block;
+}
+
+.sidepre {
+    color: rgb(9, 74, 178);
+}
+.SearchIco {
+    background: transparent;
+    border: 0px !important;
+    color: #fff;
+}
+
+.hide {
+    display: none !important;
+}
+
+.OpenedPictureTool {
+    top: 0px !important;
+    z-index: 99999999;
+    background: #0078d4 !important;
+    display: block;
+}
+
+.ClosedPictureTool {
+    bottom: 0px !important;
+    top: unset !important;
+    background: #0078d4 !important;
+    display: none !important;
+}
+
+.MobileSwim {
+    position: fixed !important;
+    z-index: 1038;
+    background: #fff !important;
+     right: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.nopad {
+    padding: 0px !important;
+}
+
+.modal__content {
+    background: #fff;
+}
+
+.dialog.modal.popup2__wrap,
+.dialog__wrap {
+    box-shadow: 0px !important;
+}

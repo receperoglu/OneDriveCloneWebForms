@@ -1,0 +1,1 @@
+﻿document.write('<link href="css/Loading.css" rel="stylesheet" /> <link href="css/yndx.css" rel="stylesheet" /> <link href="css/Sorter.css" rel="stylesheet" /> <link href="css/Sevk.css" rel="stylesheet" /> <link href="css/slayt.css" rel="stylesheet" /> <link href="css/DosyaSistemi.css" rel="stylesheet" /> ')

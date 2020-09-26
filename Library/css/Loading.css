@@ -1,0 +1,117 @@
+.ProgressSpinnerFlat {
+    position: relative;
+    box-sizing: border-box;
+    padding: 2px 0;
+    overflow: hidden;
+    height: 6px;
+    color: #0078d4;
+    font-size: 15px;
+    display:contents;
+}
+
+    .ProgressSpinnerFlat > div {
+        position: relative;
+        line-height: 0;
+        cursor: default;
+        animation: progress 1s infinite cubic-bezier(0,.75,1,.25)
+    }
+
+[dir=ltr] .ProgressSpinnerFlat > div {
+    left: -50px
+}
+
+[dir=rtl] .ProgressSpinnerFlat > div {
+    right: -50px
+}
+
+[dir=rtl] .ProgressSpinnerFlat > div {
+    animation: progressRtl 3.4s infinite cubic-bezier(0,.75,1,.25)
+}
+
+.ProgressSpinnerFlat > div:nth-child(1) {
+    animation-delay: .1s
+}
+
+[dir=ltr] .ProgressSpinnerFlat > div:nth-child(1) {
+    margin-left: 40px
+}
+
+[dir=rtl] .ProgressSpinnerFlat > div:nth-child(1) {
+    margin-right: 40px
+}
+
+.ProgressSpinnerFlat > div:nth-child(2) {
+    animation-delay: .2s
+}
+
+[dir=ltr] .ProgressSpinnerFlat > div:nth-child(2) {
+    margin-left: 30px
+}
+
+[dir=rtl] .ProgressSpinnerFlat > div:nth-child(2) {
+    margin-right: 30px
+}
+
+.ProgressSpinnerFlat > div:nth-child(3) {
+    animation-delay: .3s
+}
+
+[dir=ltr] .ProgressSpinnerFlat > div:nth-child(3) {
+    margin-left: 20px
+}
+
+[dir=rtl] .ProgressSpinnerFlat > div:nth-child(3) {
+    margin-right: 20px
+}
+
+.ProgressSpinnerFlat > div:nth-child(4) {
+    animation-delay: .4s
+}
+
+[dir=ltr] .ProgressSpinnerFlat > div:nth-child(4) {
+    margin-left: 10px
+}
+
+[dir=rtl] .ProgressSpinnerFlat > div:nth-child(4) {
+    margin-right: 10px
+}
+
+.ProgressSpinnerFlat > div:nth-child(5) {
+    animation-delay: .5s
+}
+
+[dir=ltr] .ProgressSpinnerFlat > div:nth-child(5) {
+    margin-left: 0
+}
+
+[dir=rtl] .ProgressSpinnerFlat > div:nth-child(5) {
+    margin-right: 0
+}
+
+@keyframes progress {
+    from {
+        left: -50px
+    }
+
+    25% {
+        left: -50px
+    }
+
+    to {
+        left: 100%
+    }
+}
+
+@keyframes progressRtl {
+    from {
+        right: -50px
+    }
+
+    25% {
+        right: -50px
+    }
+
+    to {
+        right: 100%
+    }
+}

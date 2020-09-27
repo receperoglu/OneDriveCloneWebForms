@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="Template.master" AutoEventWireup="true" CodeFile="Dosya_Yonetici.aspx.cs" Inherits="Default2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="Template.master" AutoEventWireup="true" CodeFile="FM.aspx.cs" Inherits="Default2" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" ClientIDMode="Static" runat="Server">
     <script>
@@ -37,8 +37,9 @@
                     <div class="clearfix"></div>
                     <ul style="margin: 0; padding: 0;" id="yollaar" class="menu2">
                     </ul>
+                                    <div class="LoadingData col-md-12"></div>
+
                 </div>
-                <div class="LoadingData col-md-12"></div>
                 <div class="temporary col-md-12"></div>
             </div>
         </div>
@@ -125,7 +126,7 @@
     <div class="od-OneUpOverlay ShowPicture" style="background: white; display: none;" data-overlay-parent="true" role="presentation" tabindex="-1">
         <div class="od-Files-oneUp" style="background: white">
             <div class="OneUp OneUp--hasCommandBar OneUp--hasItems OneUp--panningEnabled" role="presentation" style="background: white">
-                <div class="OneUp-commandBar">
+                <div class="OneUp-commandBar LoadingWrapper">
                     <div>
                         <div style="display: flex;">
                             <div style="display: block; width: 100%; background: #fff">
@@ -194,6 +195,7 @@
                             </div>
                         </div>
                     </div>
+                    <div style="background:#fff" class="LoadingData"></div>
                 </div>
                 <div class="OneUp-content" style="background: #fff; text-align: center;" role="presentation">
                 </div>
@@ -219,7 +221,7 @@
 
                     $(".SubTools").show()
                 }
-                , 2000);
+                , 100);
 
 
             $.each($("[class*='col-']"), function () {
@@ -329,18 +331,22 @@
 
 
             $(document).on('dblclick', '.PreviewFile', function () {
+
                 var FileType = $(this).attr("data-type");
                 var FileName = $(this).attr("data-name");
                 var FileUrl = $("#inputPath").val() + "/" + FileName;
                 if (FileType == "Picture") {
                     $('.OneUp-content').html("<img data-name='" + FileName + "'  data-fileurl='" + FileUrl + "' class='CurrentPictureName img-responsive' src='" + FileUrl + "'/><br><br><span>" + FileName + "</span>");
-                    $(".ShowPicture").fadeToggle();
+                    $(".ShowPicture").fadeIn();
+                    $(".od-TopBar").fadeOut()
+
                 }
                 else if (FileType == "File") {
 
                     var google = googleadres + domain + $(this).attr("data-name");
                     popup = window.open(google, 'my_popup', popop);
-                    OpenModal("Picture", "Preview")
+                    OpenModal("Picture", "Preview");
+                    
 
                 }
                 else if (FileType == "pdf") {
@@ -348,6 +354,7 @@
                     var PDFURL = $("#inputPath").val() + "/" +$(this).attr("data-filename");
                     $('.OneUp-content').html("<iframe src='" + PDFURL + "' style='width:100%;height:100%'></iframe>");
                     $(".ShowPicture").fadeToggle();
+                    $(".od-TopBar").fadeOut()
 
                 }
 
@@ -427,8 +434,10 @@
 
             $(document).on('click', '#sag', function () {
                 $(".ma5-active").addClass("isleniyor");
+                $(".LoadingData").html(LoadingHTML)
 
                 dondur('sag');
+
 
             });
 
@@ -448,6 +457,7 @@
                     success: function (id) {
 
                         $(".CurrentPictureName").attr("src", yol + "?random=" + Math.random());
+                        setTimeout(islembitti, 1500);
 
 
                     },
@@ -1300,6 +1310,8 @@
         })
         function ClosePreview() {
             $(".ShowPicture").fadeToggle();
+            $(".od-TopBar").fadeIn()
+
 
         }
         function degis() {

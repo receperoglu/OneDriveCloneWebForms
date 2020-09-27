@@ -363,8 +363,8 @@ a:focus, a:hover {
     display: none;
 }
 .ms-Button {
-    animation-name: ms-fadeIn,ms-slideDownIn20;
-    animation-duration: 367ms;
+/*    animation-name: ms-fadeIn,ms-slideDownIn20;
+*/    animation-duration: 367ms;
     animation-timing-function: cubic-bezier(.1,.9,.2,1);
     animation-fill-mode: both;
     animation-delay: .5s

@@ -11,7 +11,7 @@
 
     static void RegisterRoutes(RouteCollection routes)
     {
-         routes.MapPageRoute("a", "a", "~/abi/default.aspx");
+         routes.MapPageRoute("", "", "~/FM.aspx");
        
                  routes.MapPageRoute("f", "f", "~/abi/firmalar.aspx");
 

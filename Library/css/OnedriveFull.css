@@ -1178,7 +1178,6 @@ html[dir=rtl] .od-TopBar-commandBar {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    overflow: hidden;
     min-width: 319px
 }
 
@@ -4883,8 +4882,7 @@ html[dir=rtl] .name_9b449f28 {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    overflow: hidden;
-    min-width: 319px
+     min-width: 319px
 }
 
 .primarySet-55 {

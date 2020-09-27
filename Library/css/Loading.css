@@ -6,8 +6,8 @@
     height: 6px;
     color: #0078d4;
     font-size: 15px;
-    display:contents;
-}
+/*    display:contents;
+*/}
 
     .ProgressSpinnerFlat > div {
         position: relative;

@@ -1,5 +1,7 @@
 ﻿function CloseModal() {
-     $(".FabricModal").modal("hide");
+
+    $(".FabricModal").modal("hide");
+ 
 }
  
 function LeftSideClose() {

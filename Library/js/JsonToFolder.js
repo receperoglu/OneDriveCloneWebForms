@@ -13,9 +13,7 @@
                 '<div data-id="Folder' + FolderCount + '" class="' + HoverClass+'">' +
                 '<div class="ms-Tile-link link_ba4e71c8">' +
                 '<span style="background-repeat:no-repeat;background-size:70% 70%;background-position:center center" class="FolderBackground ms-Tile-aboveNameplate aboveNameplate_ba4e71c8">' +
-                '<span role="presentation" class="ms-Tile-content content_ba4e71c8"> ' +
-                ' <span class="od-ImageFrame2-image" style="width: 144px; height: 96px; left: -38.1176px; top: 0px;">' +                
-                '</span></span></span></span></span></span></span>' +
+                '</span></span></span></span></span>' +
                 '</span></span></span></span><span class="ms-Tile-nameplate nameplate_ba4e71c8"><span id="Tile-name338" class="ms-Tile-name name_ba4e71c8">' +
                 '<span class="signalField_05013969 compact_05013969 od-ItemTile2-signalField">' +
                 '<span class="signalFieldValue_05013969"><span>' + Name + '</span></span>' +
@@ -53,9 +51,7 @@
                 '<div data-id="Picture' + PictureCount + '" class="' + HoverClass + '">' +
                 '<div class="ms-Tile-link link_ba4e71c8">' +
                 '<span style="background:url(/thumbs/' + Name + ') no-repeat;background-size:70% 70%;background-position:center center" class="FilePreview  ms-Tile-aboveNameplate aboveNameplate_ba4e71c8">' +
-                '<span role="presentation" class="ms-Tile-content content_ba4e71c8"> ' +
-                ' <span class="od-ImageFrame2-image" style="width: 144px; height: 96px; left: -38.1176px; top: 0px;">' +
-                '</span></span></span></span></span></span></span>' +
+                ' </span></span></span></span></span>' +
                 '</span></span></span></span><span class="ms-Tile-nameplate nameplate_ba4e71c8"><span id="Tile-name338" class="ms-Tile-name name_ba4e71c8">' +
                 '<span class="signalField_05013969 compact_05013969 od-ItemTile2-signalField">' +
                 '<span class="signalFieldValue_05013969"><span>' + ShortPictureName  + '</span></span>' +

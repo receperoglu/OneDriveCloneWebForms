@@ -16,14 +16,8 @@ function JsonToFile(json) {
             '"  class="ms-Tile od-ItemTile2 od--hasContextMenu fluent-folder-icon od-ItemTile2--isLarge tile_ba4e71c8' +
             ' ms-Tile--isLarge isLarge_ba4e71c8 ms-Tile--hasForegroundFrame hasForegroundFrame_ba4e71c8 ms-Tile--isSelectable selectable_ba4e71c8' +
             ' ms-Tile--showBackground showBackground_ba4e71c8 ms-Tile--invokable invokable_ba4e71c8">' +
-            '<div class="ms-Tile-link link_ba4e71c8"><span role="presentation" class="ms-Tile-aboveNameplate aboveNameplate_ba4e71c8">' +
-            '<span role="presentation" class="ms-Tile-content content_ba4e71c8">' +
-            '<span role="presentation" class="ms-Tile-foreground foreground_ba4e71c8"><span class="od-ItemTile2-image">' +
-            '<span class="od-ImageFrame2" style="width: 67.7647px; height: 96px;"><span class="od-ImageFrame2-image" style="width: 144px; height: 96px; left: -38.1176px; top: 0px;">' +
-            '<span class="od-ImageFrame"><span class="od-ImageStack od-ImageStack--fade">' +
-            '<span class="od-ImageStack-tile od-ImageStack-tile--isLoaded">' +
-            '<span class="od-ImageTile od-ImageTile--isAligned od-ImageTile--fit od-ImageTile--isDimensioned od-ImageTile--isLoaded"><span class="od-ImageTile-background"></span>' +
-            '</span></span></span></span></span></span></span>' +
+            '<div class="ms-Tile-link link_ba4e71c8 text-center"><span role="presentation" class="ms-Tile-aboveNameplate aboveNameplate_ba4e71c8">' +
+            '</span>' +
             '<span class="od-ItemTile2-smallIcon"><div class="FileTypeIcon" >' +
             '<img class="FileTypeIcon-icon" ' +
             ' src="https://spoprod-a.akamaihd.net/files/odsp-next-prod-amd_2020-09-11_20200916.001/odsp-media/images/appsfluent/word_16x1.svg" style="width: 32px; height: 32px;">' +

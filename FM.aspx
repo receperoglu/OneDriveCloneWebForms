@@ -2,8 +2,10 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" ClientIDMode="Static" runat="Server">
     <script>
+        var Offline = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMTEuODcgMTA2LjY2Ij48ZGVmcz48c3R5bGU+LmF7ZmlsbDojZmZlMDM3O30uYntmaWxsOiNmZmM0MGI7fS5je2ZpbGw6IzNiNzdlNzt9LmR7ZmlsbDojM2I2ODMxO30uZXtmaWxsOiNmZjkwYmQ7fS5me2ZpbGw6I2ZmN2UyODt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPkFzc2V0IDEyPC90aXRsZT48cGF0aCBjbGFzcz0iYSIgZD0iTTk1Ljc2LDkwbC03LjUzLTIuNzdhMS4wOSwxLjA5LDAsMCwxLS42NS0xLjMybDMuNzQtMTIuNjItMjgtNzJjLS42LTEuNTQtMS45LTEuNzMtMi45LS40MUwyMC45NCw1Mi44MmE0LjgzLDQuODMsMCwwLDEtMy42OCw0Ljg0TC41MSw3OS42OUMtLjQ5LDgxLDAsODIuMjcsMS42Nyw4Mi41TDk3LjMyLDk1Ljk0YzEuNjUuMjQsMi40OC0uODMsMS44OC0yLjM4bC0xLjg1LTQuNzUtLjI2LjYxQTEuMDYsMS4wNiwwLDAsMSw5NS43Niw5MFpNNTYuNiw2NmgwYTQuNjEsNC42MSwwLDAsMS05LjEzLTEuMjloMEE0LjYxLDQuNjEsMCwxLDEsNTYuNiw2NlptNi43NC0zNi4yOC02LDI1LjQyYTEuMDcsMS4wNywwLDAsMS0xLjIxLjhsLTQuNy0uODJhMS4wOSwxLjA5LDAsMCwxLS44OS0xLjE3bDIuMzYtMjYuMTdBLjg5Ljg5LDAsMCwxLDU0LDI2LjkzbDguNTUsMS41OUExLDEsMCwwLDEsNjMuMzQsMjkuNjhaIi8+PHBhdGggY2xhc3M9ImIiIGQ9Ik02Mi41NywyOC41Miw1NCwyNi45M2EuODkuODksMCwwLDAtMS4wOC44MUw1MC41OCw1My45MWExLjA5LDEuMDksMCwwLDAsLjg5LDEuMTdsNC43LjgyYTEuMDcsMS4wNywwLDAsMCwxLjIxLS44bDYtMjUuNDJBMSwxLDAsMCwwLDYyLjU3LDI4LjUyWiIvPjxwYXRoIGNsYXNzPSJiIiBkPSJNNTIuNjcsNjAuNzVhNC42LDQuNiwwLDAsMC01LjIsMy45M2gwQTQuNjEsNC42MSwwLDAsMCw1Ni41OSw2NmgwQTQuNjMsNC42MywwLDAsMCw1Mi42Nyw2MC43NVoiLz48cGF0aCBjbGFzcz0iYyIgZD0iTTExMS4yNiw1My42OSw5OS41OCw0OC45YS44OS44OSwwLDAsMC0xLjIxLjU4bC03LjA1LDIzLjgsNiwxNS41M0wxMTEuOCw1NUExLDEsMCwwLDAsMTExLjI2LDUzLjY5WiIvPjxwYXRoIGNsYXNzPSJkIiBkPSJNODcuNTgsODUuOWExLjA5LDEuMDksMCwwLDAsLjY1LDEuMzJMOTUuNzYsOTBhMS4wNiwxLjA2LDAsMCwwLDEuMzMtLjU3bC4yNi0uNjEtNi0xNS41M1oiLz48cGF0aCBjbGFzcz0iYyIgZD0iTTg4LjY5LDk1LjU5QTUuNjksNS42OSwwLDAsMCw4MS4zOSw5OWgwYTUuNyw1LjcsMCwxLDAsMTAuNzEsMy45aDBBNS43LDUuNywwLDAsMCw4OC42OSw5NS41OVoiLz48cGF0aCBjbGFzcz0iZSIgZD0iTTksNDIuNzZhMS4wOCwxLjA4LDAsMCwwLDEuMjcuNzJsNy40Ny0xLjcyYTEuMDksMS4wOSwwLDAsMCwuODItMS4yMUwxNC4xOCwxMS4zNmEuOS45LDAsMCwwLTEuMTItLjc2TC44OSwxMy40MWEuOTEuOTEsMCwwLDAtLjY4LDEuMTdaIi8+PHBhdGggY2xhc3M9ImUiIGQ9Ik0yMC44Miw1MS44OWgwYTQuODMsNC44MywwLDEsMC05LjQxLDIuMTdoMGE0LjgzLDQuODMsMCwwLDAsNS43OSwzLjYybC4wNiwwLDMuNjgtNC44NEE0Ljk0LDQuOTQsMCwwLDAsMjAuODIsNTEuODlaIi8+PHBhdGggY2xhc3M9ImYiIGQ9Ik0yMC45NCw1Mi44MmwtMy42OCw0Ljg0QTQuODMsNC44MywwLDAsMCwyMC45NCw1Mi44MloiLz48L3N2Zz4='
+
         function Layout(Type, Head) {
-            $(".TopBarObject").hide();
+            //$(".TopBarObject").hide();
             $(".TopBarObject:last-child").show().addClass("fright");
             $("#LayoutRight").css("top", "85px");
             // document.getElementById("LayoutRight").style.width = "100%";
@@ -14,6 +16,120 @@
             }
         }
 
+        function OpenFullScreenModal() {
+            $('#PictureCanvas').fadeIn();
+            $('video').addClass("hide");
+            $('.PicturePreview').fadeIn();
+            $(".resources-action-bar").show();
+            $(".resources-action-bar").removeClass("ClosedPictureTool").addClass("OpenedPictureTool");
+            $(".resources-action-bar").css("z-index", "99999999999");
+        }
+        function OpenPhoto(Path) {
+            $("img#FullScreen").attr("src", "dosyalar/" + Path);
+            $('#PictureCanvas').fadeIn();
+            $('video').addClass("hide");
+            $('.PicturePreview').fadeIn();
+        }
+        function PlatformControl(Platform) {
+            if (Platform == "mobile") {
+                $(".OptionsNew").hide();
+
+                $(".OrderTools").css("margin-top", "20px");
+                $(".OrderOtherTools").removeClass("fleft").css("float", "right");;
+                $(".WizardArea").addClass("col-xs-12");
+                $(".WizardArea").removeClass("col-md-6");
+                $(".LongName").hide();
+                $(".ShortName").removeClass("hide");
+                $("#SecondScreen").addClass("MobileSwim");
+            }
+        }
+        $(document).on('click', '.FileType', function () {
+            $("body").attr("data-filetype", $(this).attr("data-type"));
+            $("#FileNew").click();
+        })
+        function Download() {
+            var Object = "http://localhost/" + $("#FullScreen").attr("src")
+            var link = document.createElement('a');
+            link.setAttribute('href', Object);
+            link.setAttribute('download', $(".ActivePicture").attr("data-filename"));
+            link.setAttribute('target', '_blank');
+            link.style.display = 'none';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+        function SharePicture() {
+            console.log("asdsad")
+            $(".PictureShare").show();
+            var link = "";
+            var b = $("body");
+            if (b.attr("data-platform") == "desktop") {
+                link = "https://api.whatsapp.com/send?text=http://";
+                $(".ShareWhatsapp").attr("target", "_blank");
+            } else {
+                link = "whatsapp://send?text=http://";
+            }
+            var ArticelName = $(".ArticelNameHead >.text-capitalize").html();
+            $(".ShareWhatsapp").attr("href", link + window.location.hostname + "/" + $("#FullScreen").attr("src"));
+            $(".ShareMail").attr("href", "mailto:mailadresi?subject=" + ArticelName + ";&body=http://" + window.location.hostname + "/" + $("#FullScreen").attr("src"));
+
+        } 
+        function CheckImg() {
+
+            $('img').on('error', function (e) {
+                $(this).attr('src', Offline);
+                $(this).attr('title', "Resim Bulunamadı");
+            });
+        }
+        function NewWindow() {
+            window.open(thisurl + "d.aspx?ArticelId=" + $("body").attr("data-articelid"));
+
+        }
+        function OpenNewArticel() {
+            $(".WizardArea").slideUp();
+            $("#NewArticel").slideDown();
+            $(".popover").hide();
+        }
+        CheckImg();
+        $(document).keyup(function (e) {
+            if (e.which == 27) {
+                document.getElementById("Playfile").pause();
+                $(".VideoCanvas").fadeOut();
+                document.getElementById("LayoutRight").style.width = "0px";
+                $("#popmodal").modal("hide");
+                $("#kelime").hide();
+                $(".ara").show();
+                $(".contentpanel").fadeIn().removeClass("bulanik")
+                $(".leftpanel").fadeIn().removeClass("bulanik");
+                $("#kelime").removeClass("kelimebuyut");
+                $("body").removeAttr("data-activewizard");
+                $('.modal').modal('hide');
+            }
+            if (e.which == 37) {
+                var url = "dosyalar/" + $(".ActivePicture").prev().attr("data-url");
+                console.log("sağ")
+                if ($(".ActivePicture").prev().attr("data-id")) {
+                    var id = $(".ActivePicture").prev().attr("data-id");
+                    $(".Picture").removeClass("ActivePicture");
+                    $(".Picture[data-id=" + id + "]").addClass("ActivePicture");
+                    $("#FullScreen").attr("src", url);
+                    $("#FullScreen").attr("data-url", url);
+                    $("#FullScreen").attr("data-id", id);
+                }
+            }
+            if (e.which == 39) {
+                var url = "dosyalar/" + $(".ActivePicture").next().attr("data-url");
+                if ($(".ActivePicture").next().attr("data-id")) {
+                    var id = $(".ActivePicture").next().attr("data-id");
+                    $(".Picture").removeClass("ActivePicture");
+                    $(".Picture[data-id=" + id + "]").addClass("ActivePicture");
+                    $("#FullScreen").attr("src", url);
+                    $("#FullScreen").attr("data-url", url);
+                    $("#FullScreen").attr("data-id", id);
+                }
+
+            }
+        });
 
 
     </script>
@@ -250,8 +366,7 @@
 
 
 
-                ma5gallery('.PictureDiv .PicturePreview');
-
+ 
 
 
 
@@ -1169,8 +1284,7 @@
 
 
 
-            ma5gallery('.PictureDiv .PicturePreview');
-
+ 
         }
 
 
@@ -1255,8 +1369,7 @@
                                     $(".yenigrup").css("display", "block");
                                     $("#sil").css("display", "none");
                                     resimdoldur();
-                                    ma5gallery('.PictureDiv .PicturePreview');
-
+ 
                                 },
                                 error: function (err) {
                                     alert(err.statusText);
@@ -1303,8 +1416,7 @@
 
 
 
-                ma5gallery('.PictureDiv .PicturePreview');
-
+ 
             }
 
         })
@@ -1390,8 +1502,7 @@
                                             $(".yenigrup").css("display", "block");
                                             $("#sil").css("display", "none");
                                             resimdoldur();
-                                            ma5gallery('.PictureDiv .PicturePreview');
-
+ 
                                             sonlandir();
 
 

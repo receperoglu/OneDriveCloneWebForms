@@ -5,32 +5,19 @@
 <head runat="server">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <script src="Library/js/jquery-3.3.1.min.js"></script>
-    <script src="Library/js/modernizr-2.5.3.js"></script>
-    <script src="Library/js/FabricJquery.js"></script>
-    <script src="Library/js/jquery.cookies.js"></script>
-    <script src="Library/js/classsie.js"></script>
+     <script src="Library/js/modernizr-2.5.3.js"></script>
+
     <link href="Library/css/bootstrap.min.css" rel="stylesheet" />
+ 
+     <script src="Library/js/bootstrap.min.js"></script>
 
-    <link href="Library/css/style.calendar.css" rel="stylesheet" />
-    <script src="Library/js/Static.js"></script>
-    <script src="Library/js/bootstrap.min.js"></script>
-
-        <script src="Library/js/ZZCloser.js"></script>
-
-    <script src="Library/js/Sorter.js"></script>
-        <link href="Library/css/Loading.css" rel="stylesheet" />
-
-    <link href="Library/css/menu_wave.css" rel="stylesheet" />
-    <link href="Library/css/toggles.css" rel="stylesheet" />
-    <link href="Library/css/select2.css" rel="stylesheet" />
-    <link href="Library/css/styles.min.css" rel="stylesheet" />
+ 
+         <link href="Library/css/Loading.css" rel="stylesheet" />
+ 
 
     <link href="Library/css/slayt.css" rel="stylesheet" />
-
-    <link href="Library/css/Notif.css" rel="stylesheet" />
-
-    <link href="Library/css/OnedriveFull.css" rel="stylesheet" />
-    <link href="Library/css/OneDrive.css" rel="stylesheet" />
+ 
+     <link href="Library/css/OneDrive.css" rel="stylesheet" />
 
     <link href="Library/css/Sevk.css" rel="stylesheet" />
 

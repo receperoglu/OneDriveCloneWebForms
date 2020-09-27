@@ -1,475 +1,429 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Template.master.cs" Inherits="Template" %>
-
 <!DOCTYPE html>
 <html class="m-client js flexbox no-touch draganddrop cssanimations csstransforms csstransforms3d csstransitions generatedcontent audio localstorage svg filereader fullscreen audiomp3 uploaddrag webkit clipboard i-ua i-ua_orient_landscape i-ua_platform_other i-ua_svg_yes i-ua_inlinesvg_yes" id="nb-1" data-nb="nb-0">
-<head runat="server">
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <script src="Library/js/jquery-3.3.1.min.js"></script>
-     <script src="Library/js/modernizr-2.5.3.js"></script>
-
-    <link href="Library/css/bootstrap.min.css" rel="stylesheet" />
- 
-     <script src="Library/js/bootstrap.min.js"></script>
-
- 
-         <link href="Library/css/Loading.css" rel="stylesheet" />
- 
-
-    <link href="Library/css/slayt.css" rel="stylesheet" />
- 
-     <link href="Library/css/OneDrive.css" rel="stylesheet" />
-
-    <link href="Library/css/Sevk.css" rel="stylesheet" />
-
-    <link href="Library/css/FabricComponent.css" rel="stylesheet" />
-    <link href="Library/css/DosyaSistemi.css" rel="stylesheet" />
-    <title></title>
-</head>
-<body class="pointerfocus efect OneDriveApp xxlg od--isNonMobile od-userSelect--enabled isNotFluent" data-menustatus="Closed" style="height: 100%;" data-status="1">
-
-    <form id="form1" runat="server">
-        <div class="PageBase od-BasePage is-active od-BasePage-leftNavVisible">
+   <head runat="server">
+      <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+      <script src="Library/js/jquery-3.3.1.min.js"></script>
+      <script src="Library/js/modernizr-2.5.3.js"></script>
+      <link href="Library/css/bootstrap.min.css" rel="stylesheet" />
+      <script src="Library/js/bootstrap.min.js"></script>
+      <link href="Library/css/Loading.css" rel="stylesheet" />
+      <link href="Library/css/slayt.css" rel="stylesheet" />
+      <link href="Library/css/OneDrive.css" rel="stylesheet" />
+      <link href="Library/css/Sevk.css" rel="stylesheet" />
+      <link href="Library/css/FabricComponent.css" rel="stylesheet" />
+      <link href="Library/css/DosyaSistemi.css" rel="stylesheet" />
+      <title></title>
+   </head>
+   <body class="pointerfocus efect OneDriveApp xxlg od--isNonMobile od-userSelect--enabled isNotFluent" data-menustatus="Closed" style="height: 100%;" data-status="1">
+      <form id="form1" runat="server">
+         <div class="PageBase od-BasePage is-active od-BasePage-leftNavVisible">
             <div class="od-BasePage-suiteNav od-BasePage-suiteNav--reactShell">
-                <div class="od-SuiteNav od-SuiteNav-react">
-                    <span class="od-SuiteNav-reactShell-diamond Icon css-41"></span>
-                    <div class="_3amH8O5zhIe06K_vFGTuae  _242EiqwUQtpcOkmbnzLL3d   ThemeBase o365cst o365spo o365sx-navbar o365sx-search" style="height: 48px; line-height: 48px;">
-                        <div class="_2kc0c9nP-qti6fefMCFonk">
-                            <div class="Mm _3FLRgiFtGLuaFraVW49btd">
-                                <button class="riRHDuln2VrIU8dSpyxJ2 o365sx-button  o365sx-waffle" type="button">
-                                    <span class="Icon--WaffleOffice365 Icon-font-size-16" style="display: inline-block; font-size: 16px;"></span>
-                                </button>
-                            </div>
-                            <div class="Mobiles  ">
-                                <button class="MenuSlicer MainMenu o365sx-button o365sx-highContrastButton" type="button">
-                                    <span class="Icon--GlobalNavButton Icon-font-size-16" style="display: inline-block; font-size: 16px;"></span>
-                                </button>
-                            </div>
-                            <div class="">
-                                <span class="_3oXfC-h0HSTdxztdO_F4_A o365sx-appName o365cs-o365logo Mm _3FLRgiFtGLuaFraVW49btd _3odjF_1ZcGTHwuaL30ia2J"></span><a class="m5-kje_HEdyN8cPiq-Sp0 o365sx-appName" href="/">
-                                    <span class="_1yZIUhrPA4l6_cQWV3l3O- o365sx-appName">Sevk</span></a>
-                            </div>
+               <div class="od-SuiteNav od-SuiteNav-react">
+                  <span class="od-SuiteNav-reactShell-diamond Icon css-41"></span>
+                  <div class="_3amH8O5zhIe06K_vFGTuae  _242EiqwUQtpcOkmbnzLL3d   ThemeBase o365cst o365spo o365sx-navbar o365sx-search" style="height: 48px; line-height: 48px;">
+                     <div class="_2kc0c9nP-qti6fefMCFonk">
+                        <div class="Mm _3FLRgiFtGLuaFraVW49btd">
+                           <button class="riRHDuln2VrIU8dSpyxJ2 o365sx-button  o365sx-waffle" type="button">
+                           <span class="Icon--WaffleOffice365 Icon-font-size-16" style="display: inline-block; font-size: 16px;"></span>
+                           </button>
                         </div>
-                        <div class="QiA1DX84m4l79Lx_jjDtW">
-                            <div class="MobileMenuMore Mobiles Mm ">
-                                <button class="MenuSlicer o365sx-button" type="button"><span class="Icon--More Icon-font-size-16" style="display: inline-block; font-size: 16px;"></span></button>
-                            </div>
-                            <div class=" MobileCommandOptions hide" style="height: 48px;">
-                                <button class="riRHDuln2VrIU8dSpyxJ2 ShellFabricMDL2Icons o365sx-button" type="button" style="font-family: FabricMDL2Icons-5;">
-                                    <div class="ThemeBase"><span style="display: inline-block; font-size: 16px;"></span></div>
-                                </button>
-                            </div>
-                            <div class="Mobiles MobileCommandOptions hide">
-                                <button class="riRHDuln2VrIU8dSpyxJ2 o365sx-waffle" type="button"><span class="Icon--WaffleOffice365 Icon-font-size-16" style="display: inline-block; font-size: 16px;"></span></button>
-                            </div>
-                            <div onclick="OpenSettings()" class="_3T6iq7Mut8tUPtyv-A9S6l">
-                                <button class="MenuSlicer o365sx-button o365sx-highContrastButton" type="button">
-                                    <span data-html="true" data-toggle="popover" class="Icon--Settings  Icon-font-size-16" style="display: inline-block; font-size: 16px;"></span>
-                                </button>
-                            </div>
-                            <div onclick="OpenSettings()" class="_3T6iq7Mut8tUPtyv-A9S6l">
-                                <button class="MenuSlicer o365sx-button o365sx-highContrastButton" type="button" style="display: block;">
-                                    <span class="Icon--Help Icon-font-size-16" style="display: inline-block; font-size: 16px;"></span>
-                                </button>
-                            </div>
-                            <div class="Mobiles CloseMobileCommandOptions hide Mm MobileCommandOptions">
-                                <button class="MenuSlicer o365sx-button" type="button">
-                                    <span class="Icon--ChromeClose  Icon-font-size-16" style="display: inline-block; font-size: 16px;"></span>
-                                </button>
-                            </div>
-                            <div class="">
-                                <button class="riRHDuln2VrIU8dSpyxJ2 _2aUXQf-eONv8YsEl8vjt5t o365sx-button o365sx-highContrastButton" type="button">
-                                    <div class="EVtx536X5dUgzXHm2qXs">
-                                        <div class="_3OhYOe1wotB0LNRbjEDfz9 _3FLRgiFtGLuaFraVW49btd"><span style="display: none;">sdf</span></div>
-                                        <div class="riRHDuln2VrIU8dSpyxJ2 _3yeneo3QKaGGnZNVFmaZCF">
-                                            <div class="_1MAj-oaYBNuu8HgwBH0d6a">
-                                                <div class="_1fH43YlMAnPCr8RI9qH98P" style="width: 32px; height: 32px;">
-                                                    <div class="M_s6agPZfWvz2OH8iRoGk" style="background-color: rgb(96, 60, 186); font-size: 16px;"><span>R</span></div>
-                                                    <div class="_14ggU2yZvNol5U91gfmYQA">
-                                                        <img alt="R" src="#">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                        <div class="Mobiles  ">
+                           <button class="MenuSlicer MainMenu o365sx-button o365sx-highContrastButton" type="button">
+                           <span class="Icon--GlobalNavButton Icon-font-size-16" style="display: inline-block; font-size: 16px;"></span>
+                           </button>
+                        </div>
+                        <div class="">
+                           <span class="_3oXfC-h0HSTdxztdO_F4_A o365sx-appName o365cs-o365logo Mm _3FLRgiFtGLuaFraVW49btd _3odjF_1ZcGTHwuaL30ia2J"></span><a class="m5-kje_HEdyN8cPiq-Sp0 o365sx-appName" href="/">
+                           <span class="_1yZIUhrPA4l6_cQWV3l3O- o365sx-appName">Sevk</span></a>
+                        </div>
+                     </div>
+                     <div class="QiA1DX84m4l79Lx_jjDtW">
+                        <div class="MobileMenuMore Mobiles Mm ">
+                           <button class="MenuSlicer o365sx-button" type="button"><span class="Icon--More Icon-font-size-16" style="display: inline-block; font-size: 16px;"></span></button>
+                        </div>
+                        <div class=" MobileCommandOptions hide" style="height: 48px;">
+                           <button class="riRHDuln2VrIU8dSpyxJ2 ShellFabricMDL2Icons o365sx-button" type="button" style="font-family: FabricMDL2Icons-5;">
+                              <div class="ThemeBase"><span style="display: inline-block; font-size: 16px;"></span></div>
+                           </button>
+                        </div>
+                        <div class="Mobiles MobileCommandOptions hide">
+                           <button class="riRHDuln2VrIU8dSpyxJ2 o365sx-waffle" type="button"><span class="Icon--WaffleOffice365 Icon-font-size-16" style="display: inline-block; font-size: 16px;"></span></button>
+                        </div>
+                        <div onclick="OpenSettings()" class="_3T6iq7Mut8tUPtyv-A9S6l">
+                           <button class="MenuSlicer o365sx-button o365sx-highContrastButton" type="button">
+                           <span data-html="true" data-toggle="popover" class="Icon--Settings  Icon-font-size-16" style="display: inline-block; font-size: 16px;"></span>
+                           </button>
+                        </div>
+                        <div onclick="OpenSettings()" class="_3T6iq7Mut8tUPtyv-A9S6l">
+                           <button class="MenuSlicer o365sx-button o365sx-highContrastButton" type="button" style="display: block;">
+                           <span class="Icon--Help Icon-font-size-16" style="display: inline-block; font-size: 16px;"></span>
+                           </button>
+                        </div>
+                        <div class="Mobiles CloseMobileCommandOptions hide Mm MobileCommandOptions">
+                           <button class="MenuSlicer o365sx-button" type="button">
+                           <span class="Icon--ChromeClose  Icon-font-size-16" style="display: inline-block; font-size: 16px;"></span>
+                           </button>
+                        </div>
+                        <div class="">
+                           <button class="riRHDuln2VrIU8dSpyxJ2 _2aUXQf-eONv8YsEl8vjt5t o365sx-button o365sx-highContrastButton" type="button">
+                              <div class="EVtx536X5dUgzXHm2qXs">
+                                 <div class="_3OhYOe1wotB0LNRbjEDfz9 _3FLRgiFtGLuaFraVW49btd"><span style="display: none;">sdf</span></div>
+                                 <div class="riRHDuln2VrIU8dSpyxJ2 _3yeneo3QKaGGnZNVFmaZCF">
+                                    <div class="_1MAj-oaYBNuu8HgwBH0d6a">
+                                       <div class="_1fH43YlMAnPCr8RI9qH98P" style="width: 32px; height: 32px;">
+                                          <div class="M_s6agPZfWvz2OH8iRoGk" style="background-color: rgb(96, 60, 186); font-size: 16px;"><span>R</span></div>
+                                          <div class="_14ggU2yZvNol5U91gfmYQA">
+                                             <img alt="R" src="#">
+                                          </div>
+                                       </div>
                                     </div>
-                                </button>
-                            </div>
+                                 </div>
+                              </div>
+                           </button>
                         </div>
-                    </div>
-                </div>
+                     </div>
+                  </div>
+               </div>
             </div>
             <div class="od-BasePage-belowHeader od-BasePage-belowHeader--flexbox MainContainer">
-                <div style="border-bottom: 1px solid rgb(96, 60, 186)" class="od-BasePage-topBar">
-                    <div class="od-TopBar">
-                        <div class="od-TopBar-item od-TopBar-search od-BasePage-search w208px fleft">
-                            <div class="od-Search">
-                                <div class="od-SearchBox">
-                                    <span class="od-SearchBox-iconWrapper od-SearchBox-iconArrowWrapper"><span class="Icon SearchIcon css-42"></span></span><span class="od-SearchBox-search">
-                                        <input class="SearchInput" type="text" placeholder="Her şeyi ara" name="Her şeyi ara"></span> <span class="od-SearchBox-iconWrapper od-SearchBox-iconSearchWrapper">
-                                            <span class="Icon SearchIcon css-43"></span>
-                                        </span>
-                                    <span style="right: 0px; padding-top: 10px" class="od-SearchBox-iconWrapper  od-SearchBox-iconClearWrapper">
-                                        <i onclick="SearchInputDelete()" data-icon-name="Cancel" role="presentation" aria-hidden="true" class="ms-Button-icon delsearch icon-73"></i>
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="od-TopBar-item od-TopBar-commandBar od-BasePage-commandBar">
-                            <div style="display: flex;">
-                                <div style="display: block; width: 100%;">
-                                    <div style="position: relative;">
-                                        <div class="ms-FocusZone css-74 ms-CommandBar root-79">
-                                            <div class="ms-OverflowSet TopBarCommandLeft primarySet-82">
-                                                <div class="ChangeView ms-OverflowSet-item TopBarObject">
-                                                    <button type="button" name="Görünüm seçenekleri" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link hide-label root-85" data-is-focusable="true">
-                                                        <div class="ms-Button-flexContainer flexContainer-86">
-                                                            <i style="font-family: FabricMDL2Icons-1 !important" data-icon-name="ViewAll" class="ButtonIcon icon-97"></i>
-                                                            <div class="ms-Button-textContainer textContainer-87">
-                                                                <div class="ms-Button-label label-89">Görünüm seçenekleri</div>
-                                                            </div>
-                                                            <i class="ms-Button-menuIcon menuIcon-98"></i>
-                                                        </div>
-                                                    </button>
-                                                </div>
-                                                <div class="ms-OverflowSet-item commandadd SubTools secme TopBarObject">
-                                                    <button type="button" name="Karşıya Yükle" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-85" data-is-focusable="true">
-                                                        <div class="ms-Button-flexContainer flexContainer-86">
-                                                            <i data-icon-name="CircleRing" class="ButtonIcon icon-93" style="font-family: controlIcons;"></i>
-                                                            <div class="ms-Button-textContainer textContainer-87">
-                                                                <div class="ms-Button-label label-89">Seç</div>
-                                                            </div>
-                                                        </div>
-                                                    </button>
-                                                </div>
-                                                <div class="ms-OverflowSet-item commandadd SubTools NewFolder TopBarObject">
-                                                    <button type="button" name="Karşıya Yükle" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-85" data-is-focusable="true">
-                                                        <div class="ms-Button-flexContainer flexContainer-86">
-                                                            <i data-icon-name="Add" class="ButtonIcon icon-93"></i>
-                                                            <div class="ms-Button-textContainer textContainer-87">
-                                                                <div class="ms-Button-label label-89">Yeni Klasör</div>
-                                                            </div>
-                                                        </div>
-                                                    </button>
-                                                </div>
-                                                <div onclick="PrintNow()" class="ms-OverflowSet-item commandprint TopBarObject SubTools ">
-                                                    <button type="button" name="Yeni" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-85 ">
-                                                        <div class="ms-Button-flexContainer flexContainer-86">
-                                                            <i data-icon-name="Print" role="presentation" aria-hidden="true" class="ms-Button-icon icon-144s"></i>
-                                                            <div class="ms-Button-textContainer textContainer-87">
-                                                                <div class="ms-Button-label label-89">Yazdır</div>
-                                                            </div>
-                                                        </div>
-                                                    </button>
-                                                </div>
-                                                <div onclick='Layout("ShareNow","Paylaş")' class="SubTools commandshare ms-OverflowSet-item TopBarObject ">
-                                                    <button type="button" name="Yeni" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-85 ">
-                                                        <div class="ms-Button-flexContainer flexContainer-86">
-                                                            <i data-icon-name="Share" role="presentation" aria-hidden="true" class="ms-Button-icon Paylas"></i>
-                                                            <div class="ms-Button-textContainer textContainer-87">
-                                                                <div class="ms-Button-label label-89">Paylaş</div>
-                                                            </div>
-                                                        </div>
-                                                    </button>
-                                                </div>
-                                                <div onclick='Layout("Notes", "Notlar")' class="SubTools commandnotes ms-OverflowSet-item TopBarObject">
-                                                    <button type="button" name="Yeni" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-85 ">
-                                                        <div class="ms-Button-flexContainer flexContainer-86">
-                                                            <i data-icon-name="StackIndicator" role="presentation" aria-hidden="true" class="nott fleft icon-68"></i>
-                                                            <div class="ms-Button-textContainer textContainer-87">
-                                                                <div class="ms-Button-label label-89">Notlar</div>
-                                                            </div>
-                                                        </div>
-                                                    </button>
-                                                </div>
-                                                <div onclick='Layout("OrderEdit","Düzenle / Oluştur")' class="SubTools commandedit ms-OverflowSet-item TopBarObject ">
-                                                    <button type="button" name="Yeni" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-85 ">
-                                                        <div class="ms-Button-flexContainer flexContainer-86">
-                                                            <i data-icon-name="Edit" role="presentation" aria-hidden="true" class="ms-Button-icon fleft icon-73"></i>
-                                                            <div class="ms-Button-textContainer textContainer-87">
-                                                                <div class="ms-Button-label label-89">Düzenle</div>
-                                                            </div>
-                                                        </div>
-                                                    </button>
-                                                </div>
-                                                <div onclick='NewWindow()' class="SubTools commandoutproduct ms-OverflowSet-item TopBarObject">
-                                                    <button type="button" name="Yeni" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-85 ">
-                                                        <div class="ms-Button-flexContainer flexContainer-86">
-                                                            <i data-icon-name="OpenInNewWindow" role="presentation" aria-hidden="true" class="ms-Button-icon fleft   iconnewWindow"></i>
-                                                            <div class="ms-Button-textContainer textContainer-87">
-                                                                <div class="ms-Button-label label-89">Yeni Sekme</div>
-                                                            </div>
-                                                        </div>
-                                                    </button>
-                                                </div>
-                                                <div onclick='ProductModal("ProductOut")' class="SubTools commandoutproduct ms-OverflowSet-item TopBarObject">
-                                                    <button type="button" name="Yeni" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-85 ">
-                                                        <div class="ms-Button-flexContainer flexContainer-86">
-                                                            <i data-icon-name="Tag" role="presentation" aria-hidden="true" class="ms-Button-icon fleft icon-73"></i>
-                                                            <div class="ms-Button-textContainer textContainer-87">
-                                                                <div class="ms-Button-label label-89">Çıkış Yap</div>
-                                                            </div>
-                                                        </div>
-                                                    </button>
-                                                </div>
-                                                <div class="ms-OverflowSet-item ms-ContextualMenuExample NewFileUpload SubTools TopBarObject">
-                                                    <button type="button" name="Karşıya Yükle" class="ms-Button ms-Button--commandBar  ms-CommandBarItem-link root-85" data-is-focusable="true">
-                                                        <div class="ms-Button-flexContainer flexContainer-86">
-                                                            <i data-icon-name="Upload" class="ButtonIcon icon-93"></i>
-                                                            <div class="ms-Button-textContainer textContainer-87">
-                                                                <div class="ms-Button-label label-89">Dosya Ekle</div>
-                                                            </div>
-                                                        </div>
-                                                    </button>
-                                                </div>
-                                                <div class="ms-OverflowSet-item ">
-                                                    <button type="button" name="Karşıya Yükle" class="ms-Button ms-Button--commandBar  ms-CommandBarItem-link root-85" data-is-focusable="true">
-                                                        <div class="ms-Button-flexContainer flexContainer-86">
-                                                            <div class="ms-Button-textContainer textContainer-87">
-                                                                <div class="ms-Button-label label-89"><span id="secilisayi"></span></div>
-                                                            </div>
-                                                        </div>
-                                                    </button>
-                                                </div>
-                                                <div id="sil" class="ms-OverflowSet-item ">
-                                                    <button type="button" class="ms-Button ms-Button--commandBar  ms-CommandBarItem-link root-85" data-is-focusable="true">
-                                                        <div class="ms-Button-flexContainer flexContainer-86">
-                                                            <i data-icon-name="Delete" class="ButtonIcon del icon-65 fleft"></i>
-                                                            <div class="ms-Button-textContainer textContainer-87 fleft">
-                                                                <div class="ms-Button-label label-89">Sil</div>
-                                                            </div>
-                                                        </div>
-                                                    </button>
-                                                </div>
-                                                <div class="ms-OverflowSet-item  CloseLayoutRight TopBarObject">
-                                                    <div onclick="BackFirstArea()" class="ms-OverflowSet-item SubTools commandclose TopBarObject">
-                                                        <button type="button" name="Yeni" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-85 ">
-                                                            <div class="ms-Button-flexContainer flexContainer-86">
-                                                                <i data-icon-name="Cancel" role="presentation" aria-hidden="true" class="ms-Button-icon icon-73"></i>
-                                                                <div class="ms-Button-textContainer textContainer-87">
-                                                                    <div class="ms-Button-label label-89">Kapat</div>
-                                                                </div>
-                                                            </div>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="prog"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="BasePage-leftNav-Container">
-                    <nav class="od-BasePage-leftNav">
-                        <div class="LeftPane LeftPane--hasNotifications" data-is-scrollable="true">
-                            <div class="LeftPane-sections">
-                                <div class="LeftNav">
-                                    <div class="LeftNav-linkArea">
-                                        <a class="LeftNav-subLink ms-font-m" href="#">
-                                            <span class="LeftNav-fadient"><span class="LeftNav-linkText NewArt">Yeni Sipariş Oluştur</span></span>
-                                        </a>
-                                        <div class="LeftNav-linkGroupContainer">
-                                            <div class="LeftNav-linkGroup is-expanded">
-                                                <div class="LeftNav-subLinksClip">
-                                                    <div class="LeftNav-subLinks" style="margin-top: 0px;">
-                                                        <a class="LeftNav-subLink ms-font-m" href="iplikler.aspx">
-                                                            <span class="LeftNav-fadient"><span class="LeftNav-linkText" id="">İplikler</span></span>
-                                                        </a>
-                                                        <a class="LeftNav-subLink ms-font-m " href="firmalar.aspx">
-                                                            <span class="LeftNav-fadient"><span class="LeftNav-linkText" id="">Firmalar</span></span>
-                                                        </a>
-                                                        <a class="LeftNav-subLink ms-font-m" href="/">
-                                                            <span class="LeftNav-fadient"><span class="LeftNav-linkText" id="">Siparişler</span></span>
-                                                        </a>
-                                                        <a class="LeftNav-subLink ms-font-m" href="irsaliyeler.aspx">
-                                                            <span class="LeftNav-fadient"><span class="LeftNav-linkText" id="">İrsaliyeler</span></span>
-                                                        </a>
-                                                        <a></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="LeftPane-notifications">
-                                <div class="LeftPane-notificationArea">
-                                    <div class="LeftNav-subLinksClip">
-                                        <div class="LeftNav-subLinks" style="margin-top: 0px;">
-                                            <div class="LeftNav-subLinksAsComponent">
-                                                <div class="od-QuotaBar od-QuotaBar-on">
-                                                    <div class="od-QuotaBar-top">
-                                                        <div class="od-QuotaBar-text">
-                                                            <a class="od-QuotaBar-link" href="#v=managestorage"></a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="od-QuotaBar-bar">
-                                                        <div class="od-QuotaBar-total"></div>
-                                                        <div class="od-QuotaBar-used" style="width: 74.4058%;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <a class="LeftNav-notificationLink" href="https://g.live.com/8SESkyDrive/SkyDriveApps?biciid=lhnlink" target="_blank"><span class="LeftNav-linkText">uygulamalarını edinin</span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="LeftPane-bottom-padding"></div>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-                <div class="od-BasePage-innerContent od-BasePage-addPaddingBottom">
-                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                    </asp:ContentPlaceHolder>
-                </div>
-            </div>
-        </div>
-        <div style="height: 75px" class="resources-action-bar ClosedPictureTool resources-action-bar_visible resources-action-bar_fixed resources-action-bar_delay resources-action-bar_theme_black js-prevent-deselect ufo-resources-action-bar" data-reactid="3">
-            <div class="resources-action-bar__body" data-reactid="4">
-                <div class="resources-action-bar__side-left" data-reactid="5">
-                    <div class="resources-info-dropdown">
-                        <div class="resources-info-dropdown__icon-wrap">
-                            <span class="hover-dropdown">
-                                <div class="hover-tooltip__tooltip-anchor">
-                                    <div class="button2 button2_view_classic button2_size_n button2_theme_clear-inverse" onclick="javascript:$('.PicturePreview').fadeOut();">
-                                        <span class="ufo-icon ufo-icon_size_n icon button2__icon resources-info-dropdown__icon">
-                                            <svg class="ufo-icon__icon" width="16" height="16" viewBox="0 0 16 16">
-                                                <g fill="none" fill-rule="evenodd">
-                                                    <path fill="currentColor" d="M7 7h2v5H7zM7 4h2v2H7z"></path>
-                                                    <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="2"></circle>
-                                                </g>
-                                            </svg>
-                                        </span>
-                                    </div>
-                                </div>
-                            </span>
-                        </div>
-                        <div class="resources-info-dropdown__text-wrap">
-                            <span class="hover-dropdown">
-                                <div class="hover-tooltip__tooltip-anchor">
-                                    <span class="resources-info-dropdown__name"><span class="clamped-text" style="font: 18px yandex-sans; max-width: 183px;"></span></span>
-                                </div>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="resources-action-bar__side-right" data-reactid="6">
-                    <span>
-                        <div onclick="SharePicture()" class="button2 button2_view_default button2_tone_transparent button2_size_n button2_theme_normal button2_type_check ufo-resources-action-bar__primary-button ufo-resources-action-bar__primary-button_desktop ufo-resources-action-bar__primary-button_action_publish" type="button" autocomplete="off" aria-pressed="false" tabindex="0" aria-disabled="false">
-                            <span class="ufo-icon ufo-icon_size_n icon button2__icon button2__icon_side_left">
-                                <svg class="ufo-icon__icon" width="16" height="16" viewBox="0 0 16 16">
-                                    <path fill="currentColor" fill-rule="evenodd" d="M14 8h2v8H0V8h1.999v6H14V8zM8 0l4 5H9v7H7V5H3.999l4-5z"></path>
-                                </svg>
-                            </span>
-                            <span class="button2__text">Paylaş
-                        </span>
-                        </div>
-                        <button class="button2 button2_view_classic button2_size_n button2_theme_clear-inverse button2_type_check ufo-resources-action-bar__primary-button ufo-resources-action-bar__primary-button_mobile ufo-resources-action-bar__primary-button_action_publish" type="button" autocomplete="off" aria-pressed="false" tabindex="0" aria-disabled="false">
-                            <span class="ufo-icon ufo-icon_size_n icon button2__icon">
-                                <svg class="ufo-icon__icon" width="16" height="16" viewBox="0 0 16 16">
-                                    <path fill="currentColor" fill-rule="evenodd" d="M14 8h2v8H0V8h1.999v6H14V8zM8 0l4 5H9v7H7V5H3.999l4-5z"></path>
-                                </svg>
-                            </span>
-                        </button>
-                    </span>
-                    <div onclick="Download()" class="button2 button2_view_default button2_tone_transparent button2_size_n button2_theme_normal ufo-resources-action-bar__primary-button ufo-resources-action-bar__primary-button_desktop ufo-resources-action-bar__primary-button_action_download" type="button" autocomplete="off" aria-pressed="false" tabindex="0" aria-disabled="false">
-                        <span class="ufo-icon ufo-icon_size_n icon button2__icon button2__icon_side_left">
-                            <svg class="ufo-icon__icon" width="16" height="16" viewBox="0 0 16 16">
-                                <g fill="currentColor" fill-rule="evenodd">
-                                    <path d="M13 6l-5 5-5-5z"></path>
-                                    <path d="M6 2h4v5H6zM3 12h10v2H3z"></path>
-                                </g>
-                            </svg>
-                        </span>
-                        <span class="button2__text">İndir
-                     </span>
-                    </div>
-                    <button class="button2 button2_view_classic button2_size_n button2_theme_clear-inverse ufo-resources-action-bar__primary-button ufo-resources-action-bar__primary-button_mobile ufo-resources-action-bar__primary-button_action_download" type="button">
-                        <span class="ufo-icon ufo-icon_size_n icon button2__icon">
-                            <svg class="ufo-icon__icon" width="16" height="16" viewBox="0 0 16 16">
-                                <g fill="currentColor" fill-rule="evenodd">
-                                    <path d="M13 6l-5 5-5-5z"></path>
-                                    <path d="M6 2h4v5H6zM3 12h10v2H3z"></path>
-                                </g>
-                            </svg>
-                        </span>
-                    </button>
-                    <div class="groupable-buttons">
-                        <div class="groupable-buttons__visible-buttons">
-                            <span class="hover-dropdown">
-                                <div class="hover-tooltip__tooltip-anchor">
-                                    <button class="button2 button2_view_classic button2_size_n button2_theme_clear-inverse groupable-buttons__visible-button groupable-buttons__visible-button_name_delete " type="button">
-                                        <span class="ufo-icon ufo-icon_size_n icon button2__icon button2__icon_side_left">
-                                            <svg class="ufo-icon__icon" width="16" height="16" viewBox="0 0 16 16">
-                                                <path d="M5.809 3.243c.094-.392.268-1.123.432-1.243l3.551-.016c.167.136.346.877.443 1.275.054.23.116.484.194.741H5.611c.083-.269.144-.53.198-.757zM12.583 4c-.151-.171-.309-.814-.404-1.21C11.911 1.679 11.505 0 9.817 0H6.241c-1.716 0-2.13 1.741-2.377 2.78-.092.385-.262 1.103-.406 1.22H1v2h2v7.985C3 15.098 3.887 16 5 16h5.985A2.015 2.015 0 0 0 13 13.985V6h2V4h-2.417z" fill="currentColor" fill-rule="evenodd"></path>
-                                            </svg>
-                                        </span>
-                                        <span class="button2__text">Sil
-                                 </span>
-                                    </button>
-                                </div>
-                            </span>
-                            <span class="hover-dropdown">
-                                <div onclick="RotatePicture()" class="hover-tooltip__tooltip-anchor">
-                                    <button class="button2 button2_view_classic button2_size_n button2_theme_clear-inverse groupable-buttons__visible-button groupable-buttons__visible-button_name_copy " type="button">
-                                        <span class="ufo-icon ufo-icon_size_n icon button2__icon button2__icon_side_left">
-                                            <i class="fa fa-repeat"></i>
-                                        </span>
-                                        <span class="button2__text">Döndür
+               <div style="border-bottom: 1px solid rgb(96, 60, 186)" class="od-BasePage-topBar">
+                  <div class="od-TopBar">
+                     <div class="od-TopBar-item od-TopBar-search od-BasePage-search w208px fleft">
+                        <div class="od-Search">
+                           <div class="od-SearchBox">
+                              <span class="od-SearchBox-iconWrapper od-SearchBox-iconArrowWrapper"><span class="Icon SearchIcon css-42"></span></span><span class="od-SearchBox-search">
+                              <input class="SearchInput" type="text" placeholder="Her şeyi ara" name="Her şeyi ara"></span> <span class="od-SearchBox-iconWrapper od-SearchBox-iconSearchWrapper">
+                              <span class="Icon SearchIcon css-43"></span>
                               </span>
-                                    </button>
-                                </div>
-                            </span>
+                              <span style="right: 0px; padding-top: 10px" class="od-SearchBox-iconWrapper  od-SearchBox-iconClearWrapper">
+                              <i onclick="SearchInputDelete()" data-icon-name="Cancel" role="presentation" aria-hidden="true" class="ms-Button-icon delsearch icon-73"></i>
+                              </span>
+                           </div>
                         </div>
-                        <div class=" groupable-buttons__more-button-wrap">
-                            <span class="hover-dropdown" data-reactid="7">
-                                <div class="hover-tooltip__tooltip-anchor" data-reactid="8">
-                                    <button onclick="PicturePreviewClose()"
-                                        class="button2 button2_view_classic button2_size_n button2_theme_clear-inverse resources-action-bar__close" type="button">
-                                        <span class="ufo-icon ufo-icon_size_n icon button2__icon" data-reactid="10">
-                                            <svg class="ufo-icon__icon" width="24" height="24" viewBox="0 0 24 24" data-reactid="11">
-                                                <path fill="currentColor" d="M21 5.421L19.579 4 12.5 11.079 5.421 4 4 5.421l7.079 7.079L4 19.579 5.421 21l7.079-7.079L19.579 21 21 19.579 13.921 12.5z" data-reactid="12"></path>
-                                            </svg>
-                                        </span>
-                                    </button>
+                     </div>
+                     <div class="od-TopBar-item od-TopBar-commandBar od-BasePage-commandBar">
+                        <div style="display: flex;">
+                           <div style="display: block; width: 100%;">
+                              <div style="position: relative;">
+                                 <div class="ms-FocusZone css-74 ms-CommandBar root-79">
+                                    <div class="ms-OverflowSet TopBarCommandLeft primarySet-82">
+                                       <div class="ChangeView ms-OverflowSet-item TopBarObject">
+                                          <button type="button" name="Görünüm seçenekleri" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link hide-label root-85" data-is-focusable="true">
+                                             <div class="ms-Button-flexContainer flexContainer-86">
+                                                <i style="font-family: FabricMDL2Icons-1 !important" data-icon-name="ViewAll" class="ButtonIcon icon-97"></i>
+                                                <div class="ms-Button-textContainer textContainer-87">
+                                                   <div class="ms-Button-label label-89">Görünüm seçenekleri</div>
+                                                </div>
+                                                <i class="ms-Button-menuIcon menuIcon-98"></i>
+                                             </div>
+                                          </button>
+                                       </div>
+                                       <div class="ms-OverflowSet-item commandadd SubTools secme TopBarObject">
+                                          <button type="button" name="Karşıya Yükle" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-85" data-is-focusable="true">
+                                             <div class="ms-Button-flexContainer flexContainer-86">
+                                                <i data-icon-name="CircleRing" class="ButtonIcon icon-93" style="font-family: controlIcons;"></i>
+                                                <div class="ms-Button-textContainer textContainer-87">
+                                                   <div class="ms-Button-label label-89">Seç</div>
+                                                </div>
+                                             </div>
+                                          </button>
+                                       </div>
+                                       <div class="ms-OverflowSet-item commandadd SubTools NewFolder TopBarObject">
+                                          <button type="button" name="Karşıya Yükle" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-85" data-is-focusable="true">
+                                             <div class="ms-Button-flexContainer flexContainer-86">
+                                                <i data-icon-name="Add" class="ButtonIcon icon-93"></i>
+                                                <div class="ms-Button-textContainer textContainer-87">
+                                                   <div class="ms-Button-label label-89">Yeni Klasör</div>
+                                                </div>
+                                             </div>
+                                          </button>
+                                       </div>
+                                       <div onclick="PrintNow()" class="ms-OverflowSet-item commandprint TopBarObject SubTools ">
+                                          <button type="button" name="Yeni" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-85 ">
+                                             <div class="ms-Button-flexContainer flexContainer-86">
+                                                <i data-icon-name="Print" role="presentation" aria-hidden="true" class="ms-Button-icon icon-144s"></i>
+                                                <div class="ms-Button-textContainer textContainer-87">
+                                                   <div class="ms-Button-label label-89">Yazdır</div>
+                                                </div>
+                                             </div>
+                                          </button>
+                                       </div>
+                                       <div onclick='Layout("ShareNow","Paylaş")' class="SubTools commandshare ms-OverflowSet-item TopBarObject ">
+                                          <button type="button" name="Yeni" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-85 ">
+                                             <div class="ms-Button-flexContainer flexContainer-86">
+                                                <i data-icon-name="Share" role="presentation" aria-hidden="true" class="ms-Button-icon Paylas"></i>
+                                                <div class="ms-Button-textContainer textContainer-87">
+                                                   <div class="ms-Button-label label-89">Paylaş</div>
+                                                </div>
+                                             </div>
+                                          </button>
+                                       </div>
+                                       <div onclick='Layout("Notes", "Notlar")' class="SubTools commandnotes ms-OverflowSet-item TopBarObject">
+                                          <button type="button" name="Yeni" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-85 ">
+                                             <div class="ms-Button-flexContainer flexContainer-86">
+                                                <i data-icon-name="StackIndicator" role="presentation" aria-hidden="true" class="nott fleft icon-68"></i>
+                                                <div class="ms-Button-textContainer textContainer-87">
+                                                   <div class="ms-Button-label label-89">Notlar</div>
+                                                </div>
+                                             </div>
+                                          </button>
+                                       </div>
+                                       <div onclick='Layout("OrderEdit","Düzenle / Oluştur")' class="SubTools commandedit ms-OverflowSet-item TopBarObject ">
+                                          <button type="button" name="Yeni" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-85 ">
+                                             <div class="ms-Button-flexContainer flexContainer-86">
+                                                <i data-icon-name="Edit" role="presentation" aria-hidden="true" class="ms-Button-icon fleft icon-73"></i>
+                                                <div class="ms-Button-textContainer textContainer-87">
+                                                   <div class="ms-Button-label label-89">Düzenle</div>
+                                                </div>
+                                             </div>
+                                          </button>
+                                       </div>
+                                       <div onclick='NewWindow()' class="SubTools commandoutproduct ms-OverflowSet-item TopBarObject">
+                                          <button type="button" name="Yeni" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-85 ">
+                                             <div class="ms-Button-flexContainer flexContainer-86">
+                                                <i data-icon-name="OpenInNewWindow" role="presentation" aria-hidden="true" class="ms-Button-icon fleft   iconnewWindow"></i>
+                                                <div class="ms-Button-textContainer textContainer-87">
+                                                   <div class="ms-Button-label label-89">Yeni Sekme</div>
+                                                </div>
+                                             </div>
+                                          </button>
+                                       </div>
+                                       <div onclick='ProductModal("ProductOut")' class="SubTools commandoutproduct ms-OverflowSet-item TopBarObject">
+                                          <button type="button" name="Yeni" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-85 ">
+                                             <div class="ms-Button-flexContainer flexContainer-86">
+                                                <i data-icon-name="Tag" role="presentation" aria-hidden="true" class="ms-Button-icon fleft icon-73"></i>
+                                                <div class="ms-Button-textContainer textContainer-87">
+                                                   <div class="ms-Button-label label-89">Çıkış Yap</div>
+                                                </div>
+                                             </div>
+                                          </button>
+                                       </div>
+                                       <div class="ms-OverflowSet-item ms-ContextualMenuExample NewFileUpload SubTools TopBarObject">
+                                          <button type="button" name="Karşıya Yükle" class="ms-Button ms-Button--commandBar  ms-CommandBarItem-link root-85" data-is-focusable="true">
+                                             <div class="ms-Button-flexContainer flexContainer-86">
+                                                <i data-icon-name="Upload" class="ButtonIcon icon-93"></i>
+                                                <div class="ms-Button-textContainer textContainer-87">
+                                                   <div class="ms-Button-label label-89">Dosya Ekle</div>
+                                                </div>
+                                             </div>
+                                          </button>
+                                       </div>
+                                       <div class="ms-OverflowSet-item ">
+                                          <button type="button" name="Karşıya Yükle" class="ms-Button ms-Button--commandBar  ms-CommandBarItem-link root-85" data-is-focusable="true">
+                                             <div class="ms-Button-flexContainer flexContainer-86">
+                                                <div class="ms-Button-textContainer textContainer-87">
+                                                   <div class="ms-Button-label label-89"><span id="secilisayi"></span></div>
+                                                </div>
+                                             </div>
+                                          </button>
+                                       </div>
+                                       <div id="sil" class="ms-OverflowSet-item ">
+                                          <button type="button" class="ms-Button ms-Button--commandBar  ms-CommandBarItem-link root-85" data-is-focusable="true">
+                                             <div class="ms-Button-flexContainer flexContainer-86">
+                                                <i data-icon-name="Delete" class="ButtonIcon del icon-65 fleft"></i>
+                                                <div class="ms-Button-textContainer textContainer-87 fleft">
+                                                   <div class="ms-Button-label label-89">Sil</div>
+                                                </div>
+                                             </div>
+                                          </button>
+                                       </div>
+                                       <div class="ms-OverflowSet-item  CloseLayoutRight TopBarObject">
+                                          <div onclick="BackFirstArea()" class="ms-OverflowSet-item SubTools commandclose TopBarObject">
+                                             <button type="button" name="Yeni" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-85 ">
+                                                <div class="ms-Button-flexContainer flexContainer-86">
+                                                   <i data-icon-name="Cancel" role="presentation" aria-hidden="true" class="ms-Button-icon icon-73"></i>
+                                                   <div class="ms-Button-textContainer textContainer-87">
+                                                      <div class="ms-Button-label label-89">Kapat</div>
+                                                   </div>
+                                                </div>
+                                             </button>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="prog"></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="BasePage-leftNav-Container">
+                  <nav class="od-BasePage-leftNav">
+                     <div class="LeftPane LeftPane--hasNotifications" data-is-scrollable="true">
+                        <div class="LeftPane-sections">
+                           <div class="LeftNav">
+                              <div class="LeftNav-linkArea">
+                                 <a class="LeftNav-subLink ms-font-m" href="#">
+                                 <span class="LeftNav-fadient"><span class="LeftNav-linkText NewArt">Yeni Sipariş Oluştur</span></span>
+                                 </a>
+                                 <div class="LeftNav-linkGroupContainer">
+                                    <div class="LeftNav-linkGroup is-expanded">
+                                       <div class="LeftNav-subLinksClip">
+                                          <div class="LeftNav-subLinks" style="margin-top: 0px;">
+                                             <a class="LeftNav-subLink ms-font-m" href="iplikler.aspx">
+                                             <span class="LeftNav-fadient"><span class="LeftNav-linkText" id="">İplikler</span></span>
+                                             </a>
+                                             <a class="LeftNav-subLink ms-font-m " href="firmalar.aspx">
+                                             <span class="LeftNav-fadient"><span class="LeftNav-linkText" id="">Firmalar</span></span>
+                                             </a>
+                                             <a class="LeftNav-subLink ms-font-m" href="/">
+                                             <span class="LeftNav-fadient"><span class="LeftNav-linkText" id="">Siparişler</span></span>
+                                             </a>
+                                             <a class="LeftNav-subLink ms-font-m" href="irsaliyeler.aspx">
+                                             <span class="LeftNav-fadient"><span class="LeftNav-linkText" id="">İrsaliyeler</span></span>
+                                             </a>
+                                             <a></a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="LeftPane-notifications">
+                           <div class="LeftPane-notificationArea">
+                              <div class="LeftNav-subLinksClip">
+                                 <div class="LeftNav-subLinks" style="margin-top: 0px;">
+                                    <div class="LeftNav-subLinksAsComponent">
+                                       <div class="od-QuotaBar od-QuotaBar-on">
+                                          <div class="od-QuotaBar-top">
+                                             <div class="od-QuotaBar-text">
+                                                <a class="od-QuotaBar-link" href="#v=managestorage"></a>
+                                             </div>
+                                          </div>
+                                          <div class="od-QuotaBar-bar">
+                                             <div class="od-QuotaBar-total"></div>
+                                             <div class="od-QuotaBar-used" style="width: 74.4058%;"></div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <a class="LeftNav-notificationLink" href="https://g.live.com/8SESkyDrive/SkyDriveApps?biciid=lhnlink" target="_blank"><span class="LeftNav-linkText">uygulamalarını edinin</span></a>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="LeftPane-bottom-padding"></div>
+                        </div>
+                     </div>
+                  </nav>
+               </div>
+               <div class="od-BasePage-innerContent od-BasePage-addPaddingBottom">
+                  <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                  </asp:ContentPlaceHolder>
+                   <div class="od-OneUpOverlay ShowPicture" style="background: white; display: none;" data-overlay-parent="true" role="presentation" tabindex="-1">
+        <div class="od-Files-oneUp" style="background: white">
+            <div class="OneUp OneUp--hasCommandBar OneUp--hasItems OneUp--panningEnabled" role="presentation" style="background: white">
+                <div class="OneUp-commandBar LoadingWrapper">
+                    <div>
+                        <div style="display: flex;">
+                            <div style="display: block; width: 100%; background: #fff">
+                                <div role="presentation">
+                                    <div>
+                                        <div style="position: relative;">
+                                            <div data-automation-id="visibleContent" style="background: #fff">
+                                                <div role="menubar" aria-label="Komut çubuğu, menü öğeleri arasında gezinmek için sol ve sağ ok tuşlarını kullanın" data-focuszone-id="FocusZone213">
+                                                    <div role="group" style="float: left;" class="ms-OverflowSet ms-CommandBar-primaryCommand primarySet-53">
+                                                        <div class="ms-OverflowSet-item item-54">
+                                                            <button type="button" role="menuitem" name="Paylaş" title="Paylaş" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-57" data-is-focusable="true" aria-label="Paylaş" tabindex="0"><span class="ms-Button-flexContainer flexContainer-58" data-automationid="splitbuttonprimary"><i data-icon-name="Share" aria-hidden="true" class="ms-Button-icon icon-69"></i><span class="ms-Button-textContainer textContainer-59"><span class="ms-Button-label label-61" id="id__214">Paylaş</span></span></span></button>
+                                                        </div>
+                                                        <div class="hide ms-OverflowSet-item item-54">
+                                                            <button type="button" role="menuitem" name="Albüme ekle" title="Albüme ekle" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-57" data-is-focusable="true" aria-label="Albüme ekle"><span class="ms-Button-flexContainer flexContainer-58" data-automationid="splitbuttonprimary"><i data-icon-name="Photo2Add" aria-hidden="true" class="ms-Button-icon icon-140"></i><span class="ms-Button-textContainer textContainer-59"><span class="ms-Button-label label-61" id="id__293">Albüme ekle</span></span></span></button>
+                                                        </div>
+                                                        <div class="hide ms-OverflowSet-item item-54">
+                                                            <button type="button" role="menuitem" name="Slayt gösterisi oynat" title="Slayt gösterisi oynat" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-57" data-is-focusable="true" aria-label="Slayt gösterisi oynat"><span class="ms-Button-flexContainer flexContainer-58" data-automationid="splitbuttonprimary"><i data-icon-name="Play" aria-hidden="true" class="ms-Button-icon icon-142"></i><span class="ms-Button-textContainer textContainer-59"><span class="ms-Button-label label-61" id="id__296">Slayt gösterisi oynat</span></span></span></button>
+                                                        </div>
+                                                        <div class="ms-OverflowSet-item item-54">
+                                                            <button id="sag" type="button" role="menuitem" name="Döndür" title="Döndür" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-57" data-is-focusable="true" aria-label="Döndür"><span class="ms-Button-flexContainer flexContainer-58" data-automationid="splitbuttonprimary"><i data-icon-name="rotate" aria-hidden="true" class="ms-Button-icon icon-142"></i><span class="ms-Button-textContainer textContainer-59"><span class="ms-Button-label label-61" id="id__299">Döndür</span></span></span></button>
+                                                        </div>
+                                                        <div class="hide ms-OverflowSet-item item-54">
+                                                            <button type="button" role="menuitem" name="Office Lens" title="Office Lens" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-57" data-is-focusable="true" aria-label="Office Lens"><span class="ms-Button-flexContainer flexContainer-58" data-automationid="splitbuttonprimary"><i data-icon-name="LightningBolt" aria-hidden="true" class="ms-Button-icon icon-154"></i><span class="ms-Button-textContainer textContainer-59"><span class="ms-Button-label label-61" id="id__302">Office Lens</span></span></span></button>
+                                                        </div>
+                                                        <div class="ms-OverflowSet-item item-54">
+                                                            <button id="resimindir" type="button" role="menuitem" name="İndir" title="İndir" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-57" data-is-focusable="true" data-automationid="download" aria-label="İndir" tabindex="-1"><span class="ms-Button-flexContainer flexContainer-58" data-automationid="splitbuttonprimary"><i data-icon-name="Download" aria-hidden="true" class="ms-Button-icon icon-69"></i><span class="ms-Button-textContainer textContainer-59"><span class="ms-Button-label label-61" id="id__217">İndir</span></span></span></button>
+                                                        </div>
+                                                        <div id="buresmisil" class="ms-OverflowSet-item item-54">
+                                                            <button type="button" role="menuitem" name="Sil" title="Sil" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-57" data-is-focusable="true" aria-label="Sil"><span class="ms-Button-flexContainer flexContainer-58" data-automationid="splitbuttonprimary"><i data-icon-name="Delete" aria-hidden="true" class="ms-Button-icon icon-69"></i><span class="ms-Button-textContainer textContainer-59"><span class="ms-Button-label label-61" id="id__305">Sil</span></span></span></button>
+                                                        </div>
+                                                        <div class="hide ms-OverflowSet-item item-54">
+                                                            <button type="button" role="menuitem" name="Orijinali görüntüle" title="Orijinali görüntüle" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-57" data-is-focusable="true" aria-label="Orijinali görüntüle"><span class="ms-Button-flexContainer flexContainer-58" data-automationid="splitbuttonprimary"><i data-icon-name="Picture" aria-hidden="true" class="ms-Button-icon icon-66"></i><span class="ms-Button-textContainer textContainer-59"><span class="ms-Button-label label-61" id="id__308">Orijinali görüntüle</span></span></span></button>
+                                                        </div>
+                                                        <div class="hide ms-OverflowSet-item item-54">
+                                                            <button type="button" role="menuitem" name="Ekle" title="Ekle" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-57" data-is-focusable="true" aria-label="Ekle" tabindex="-1"><span class="ms-Button-flexContainer flexContainer-58" data-automationid="splitbuttonprimary"><i data-icon-name="Embed" aria-hidden="true" class="ms-Button-icon icon-69"></i><span class="ms-Button-textContainer textContainer-59"><span class="ms-Button-label label-61" id="id__220">Ekle</span></span></span></button>
+                                                        </div>
+                                                        <div class="hide ms-OverflowSet-item item-54">
+                                                            <button type="button" role="menuitem" name="Kopyala" title="Kopyala" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-57" data-is-focusable="true" data-automationid="copy" aria-label="Kopyala" tabindex="-1"><span class="ms-Button-flexContainer flexContainer-58" data-automationid="splitbuttonprimary"><i data-icon-name="Copy" aria-hidden="true" class="ms-Button-icon icon-134"></i><span class="ms-Button-textContainer textContainer-59"><span class="ms-Button-label label-61" id="id__223">Kopyala</span></span></span></button>
+                                                        </div>
+                                                        <div class="hide ms-OverflowSet-overflowButton overflowButton-55">
+                                                            <button type="button" role="menuitem" title="Seçili öğelerle yapabileceğiniz diğer işlemler" class="ms-Button ms-Button--commandBar ms-Button--hasMenu ms-CommandBar-overflowButton root-129" aria-label="Seçili öğelerle yapabileceğiniz diğer işlemler" data-is-focusable="true" aria-expanded="false" aria-haspopup="true"><span class="ms-Button-flexContainer flexContainer-58" data-automationid="splitbuttonprimary"><i data-icon-name="More" role="presentation" aria-hidden="true" class="ms-Icon root-41 css-33 ms-Button-menuIcon menuIcon-136" style="font-family: FabricMDL2Icons;"></i></span></button>
+                                                        </div>
+                                                    </div>
+                                                    <div role="group" style="float: right" class="ms-OverflowSet ms-CommandBar-secondaryCommand secondarySet-56">
+                                                        <div class="ms-OverflowSet-item item-54">
+                                                            <button type="button" role="menuitem" name="Önceki" title="Önceki" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link root-57" data-is-focusable="true" data-automationid="previousButton" aria-label="Önceki"><span class="ms-Button-flexContainer flexContainer-58" data-automationid="splitbuttonprimary"><i data-icon-name="ChevronLeft" aria-hidden="true" class="ms-Button-icon icon-69"></i><span class="ms-Button-textContainer textContainer-59"><span class="ms-Button-label label-61" id="id__235">Önceki</span></span></span></button>
+                                                        </div>
+                                                        <div class="hide ms-OverflowSet-item item-54">
+                                                            <button type="button" role="menuitem" name="4 / 4" title="4 / 4" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link is-disabled root-57" data-is-focusable="false" data-automationid="oneUpPageCount" tabindex="-1" aria-label="4 / 4"><span class="ms-Button-flexContainer flexContainer-58" data-automationid="splitbuttonprimary"><i aria-hidden="true" class="ms-Button-icon icon-152"></i><span class="ms-Button-textContainer textContainer-59"><span class="ms-Button-label label-61" id="id__226">4 / 4</span></span></span></button>
+                                                        </div>
+                                                        <div class="ms-OverflowSet-item item-54">
+                                                            <button type="button" role="menuitem" name="Sonraki" title="Sonraki" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link is-invisible root-57" data-is-focusable="false" data-automationid="nextButton" aria-label="Sonraki"><span class="ms-Button-flexContainer flexContainer-143" data-automationid="splitbuttonprimary"><i data-icon-name="ChevronRight" aria-hidden="true" class="ms-Button-icon icon-69"></i><span class="ms-Button-textContainer textContainer-59"><span class="ms-Button-label label-61" id="id__238">Sonraki</span></span></span></button>
+                                                        </div>
+                                                        <div class="ms-OverflowSet-item item-54">
+                                                            <button onclick="ClosePreview()" type="button" role="menuitem" name="Kapat" title="Kapat" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link hide-label root-57" data-is-focusable="true" data-automationid="close" aria-label="Kapat" tabindex="-1"><span class="ms-Button-flexContainer flexContainer-58" data-automationid="splitbuttonprimary"><i data-icon-name="Cancel" aria-hidden="true" class="ms-Button-icon icon-69"></i><span class="ms-Button-textContainer textContainer-59"><span class="ms-Button-label label-61" id="id__229">Kapat</span></span></span></button>
+                                                        </div>
+                                                        <div id="resimbilgisiiste" class=" ms-OverflowSet-item item-54">
+                                                            <button type="button" role="menuitem" name="" title="Ayrıntılar bölmesini açın" class="ms-Button ms-Button--commandBar ms-CommandBarItem-link hide-label root-57" aria-controls="DetailsPane-212" aria-expanded="false" data-is-focusable="true" data-automationid="showProperties" tabindex="-1"><span class="ms-Button-flexContainer flexContainer-58" data-automationid="splitbuttonprimary"><i data-icon-name="Info" aria-hidden="true" class="ms-Button-icon icon-69"></i><span class="ms-Button-label label-61" id="id__232"></span></span></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </span>
+                            </div>
                         </div>
                     </div>
+                    <div style="background: #fff" class="LoadingData"></div>
+                </div>
+                <div class="OneUp-content" style="background: #fff; text-align: center;" role="presentation">
                 </div>
             </div>
-        </div>
-    </form>
-    <div id="LayoutRight" tabindex="0" class="BaseDrive">
-        <div class="_3vMrdRZR8bo5hSiJS8JJ8C nopad col-md-12">
-            <h2 class="LayoutHead ">Paylaş</h2>
-        </div>
-        <div style="clear: both;" class="col-md-12 clearfix"></div>
-        <div style="display: inline-block; width: 100%; padding: 10px;" class="col-md-12">
-            <div class="LayoutType" id="ShareNow">
-                <a id="O365_AppTile_Mail sidepre" class="BaseDriveContainer ShareMail" href="#">
-                    <div class="BaseDrive" aria-hidden="true">
-                        <span class="ms-Icon--OutlookLogo DriveIcon ms-svg-Icon"></span>
-                    </div>
-                    <div class="DriveTextContainer"><span>E-Posta Gönder</span></div>
-                </a>
-                <a id="O365_AppTile_Documents" class="BaseDriveContainer" href="#">
-                    <div class="BaseDrive" aria-hidden="true">
-                        <span class="ms-Icon--OneDrive DriveIcon ms-svg-Icon  "></span>
-                    </div>
-                    <div class="DriveTextContainer"><span>Kaydet</span></div>
-                </a>
-                <a class="BaseDriveContainer sidepre ShareWhatsapp" href="#">
-                    <div class="BaseDrive" aria-hidden="true">
-                        <span class="ms-Icon--WordLogo DriveIcon ms-svg-Icon  "></span>
-                    </div>
-                    <div class="DriveTextContainer"><span>WhatsApp ile Gönder</span></div>
-                </a>
-            </div>
-
         </div>
     </div>
-</body>
-</html>
 
+               </div>
+            </div>
+         </div>
+          
+      </form>
+      <div id="LayoutRight" tabindex="0" class="BaseDrive">
+         <div class="_3vMrdRZR8bo5hSiJS8JJ8C nopad col-md-12">
+            <h2 class="LayoutHead ">Paylaş</h2>
+         </div>
+         <div style="clear: both;" class="col-md-12 clearfix"></div>
+         <div style="display: inline-block; width: 100%; padding: 10px;" class="col-md-12">
+            <div class="LayoutType" id="ShareNow">
+               <a id="O365_AppTile_Mail sidepre" class="BaseDriveContainer ShareMail" href="#">
+                  <div class="BaseDrive" aria-hidden="true">
+                     <span class="ms-Icon--OutlookLogo DriveIcon ms-svg-Icon"></span>
+                  </div>
+                  <div class="DriveTextContainer"><span>E-Posta Gönder</span></div>
+               </a>
+               <a id="O365_AppTile_Documents" class="BaseDriveContainer" href="#">
+                  <div class="BaseDrive" aria-hidden="true">
+                     <span class="ms-Icon--OneDrive DriveIcon ms-svg-Icon  "></span>
+                  </div>
+                  <div class="DriveTextContainer"><span>Kaydet</span></div>
+               </a>
+               <a class="BaseDriveContainer sidepre ShareWhatsapp" href="#">
+                  <div class="BaseDrive" aria-hidden="true">
+                     <span class="ms-Icon--WordLogo DriveIcon ms-svg-Icon  "></span>
+                  </div>
+                  <div class="DriveTextContainer"><span>WhatsApp ile Gönder</span></div>
+               </a>
+            </div>
+         </div>
+      </div>
+    
+   </body>
+</html>
